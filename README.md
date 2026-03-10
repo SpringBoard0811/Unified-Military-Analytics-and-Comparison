@@ -8,7 +8,7 @@ The project focuses on comparing military capabilities, evaluating national defe
 
 The final solution integrates **data scraping, data cleaning, KPI engineering, and dashboard visualization** into a unified analytics system.
 
----
+--
 
 # Project Objectives
 
