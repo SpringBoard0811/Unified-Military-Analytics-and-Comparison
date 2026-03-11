@@ -87,7 +87,7 @@ links_for_military_data.txt
 
 The project is designed as a **multi-stage analytics pipeline** transforming raw web data into interactive dashboards.
 
-
+```
 Data Extraction
       ↓
 Raw Dataset Generation
@@ -99,7 +99,7 @@ Strategic KPI Computation
 Dashboard Development
       ↓
 Interactive Military Analytics Platform
-
+```
 
 Each stage converts **unstructured data into structured analytical insights**.
 
