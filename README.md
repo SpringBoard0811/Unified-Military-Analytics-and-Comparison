@@ -1,3 +1,4 @@
+
 # 🌍 Unified Military Analytics and Comparison Dashboard
 
 An **interactive data analytics project** designed to analyze and compare global military strength using structured defense datasets and analytical KPIs.
@@ -10,7 +11,7 @@ The project follows a **complete data analytics pipeline**, including:
 * Dashboard development
 * Testing and validation
 
-Using **Python, data analysis libraries, and interactive visualization tools**, the platform enables exploration of military capabilities across multiple countries.
+Using **Python, data analysis libraries, and visualization tools**, the platform enables exploration of military capabilities across multiple countries.
 
 ---
 
@@ -23,7 +24,7 @@ The goal of this project is to build a **comprehensive military analytics system
 ✔ Generate analytical KPIs from defense data
 ✔ Explore insights through visual dashboards
 
-The project demonstrates a **real-world analytics workflow similar to industry data projects**.
+This project demonstrates a **real-world data analytics workflow similar to industry-level projects**.
 
 ---
 
@@ -31,7 +32,7 @@ The project demonstrates a **real-world analytics workflow similar to industry d
 
 The dataset contains **defense and military capability indicators** for multiple countries.
 
-Example metrics included:
+### Example metrics
 
 * Military manpower
 * Aircraft inventory
@@ -67,9 +68,9 @@ Unified-Military-Analytics-and-Comparison/
 │   ├── dataset/
 │   │
 │   ├── notebook/
-│   │   ├── Web scraping file of one country.ipynb
-│   │   ├── Automate scraping using provided URL list.ipynb
-│   │  
+│   │   ├── Web_Scraping_Single_Country.ipynb
+│   │   ├── Automated_Scraping_URL_List.ipynb
+│   │
 │   └── README.md
 │
 ├── Milestone-2/
@@ -85,87 +86,85 @@ Unified-Military-Analytics-and-Comparison/
 │   ├── Testing_and_Validation.ipynb
 │   └── README.md
 │
-└── README.md  
+└── README.md
 ```
 
 Each **milestone represents a stage of the analytics lifecycle**, making the project easy to understand and reproduce.
 
 ---
 
-📊 Dashboard Modules
+# 📊 Dashboard Modules
 
-The analytics system includes four visualization modules that help explore and compare military capabilities across countries. These modules are implemented through Python-based visual analytics and notebooks.
+The analytics system includes **four visualization modules** that help explore and compare military capabilities across countries.
 
-⚡ Quick Stats
+These modules are implemented using **Python-based visual analytics and notebooks**.
 
-Provides a high-level overview of global military indicators.
+---
 
-Features
+## ⚡ Quick Stats
 
-Top countries by military strength indicators
+Provides a **high-level overview of global military indicators**.
 
-Summary statistics of major military metrics
+### Features
 
-Defense budget overview
+* Top countries by military strength indicators
+* Summary statistics of major military metrics
+* Defense budget overview
+* Key military KPI visualizations
 
-Key military KPI visualizations
+This module helps users quickly understand **global military trends and rankings**.
 
-This module helps users quickly understand global military trends and rankings.
+---
 
-🌍 Nation Overview
+## 🌍 Nation Overview
 
-Offers a detailed analysis of an individual country's military capabilities.
+Offers a **detailed analysis of an individual country's military capabilities**.
 
-Displays
+### Displays
 
-Military manpower statistics
+* Military manpower statistics
+* Air power indicators (aircraft inventory)
+* Naval fleet strength
+* Defense budget analysis
+* Derived analytical KPIs
 
-Air power indicators (aircraft inventory)
+This module provides a **country-level breakdown of military strength metrics**.
 
-Naval fleet strength
+---
 
-Defense budget analysis
+## ⚔️ Country Comparison
 
-Derived analytical KPIs
+Allows **side-by-side comparison of two or more countries** based on military indicators.
 
-This module provides a country-level breakdown of military strength metrics.
+### Metrics Compared
 
-⚔️ Country Comparison
+* Military personnel
+* Aircraft inventory
+* Naval assets
+* Land forces and armored units
+* Defense budget and related KPIs
 
-Allows side-by-side comparison of two or more countries based on military indicators.
+This module helps identify **strengths and weaknesses between nations through visual comparison**.
 
-Metrics Compared
+---
 
-Military personnel
+## 🤝 Alliance Strength Analysis
 
-Aircraft inventory
+Simulates the **combined military capability of multiple countries**.
 
-Naval assets
+### Capabilities
 
-Land forces and armored units
+* Selection of multiple countries
+* Aggregated military indicators
+* Comparative analysis between alliances and individual nations
 
-Defense budget and related KPIs
+This module helps explore **how coalition forces compare to individual military powers**.
 
-This module helps identify strengths and weaknesses between nations through visual comparison.
-
-🤝 Alliance Strength Analysis
-
-Simulates the combined military capability of multiple countries.
-
-Capabilities
-
-Selection of multiple countries
-
-Aggregated military indicators
-
-Comparative analysis between alliances and individual nations
-
-This module helps explore how coalition forces compare to individual military powers.
 ---
 
 # 🔄 Data Analytics Workflow
 
-The project follows a **structured analytics pipeline**:
+The project follows a **structured analytics pipeline**.
 
 ```
 Raw Military Dataset
@@ -217,5 +216,8 @@ Possible enhancements include:
 ✔ Visualization-driven insights
 ✔ Modular milestone-based development
 
+---
+```
+## 📸 Dashboard Preview
+```
 
-These are what make projects look **“industry-level” to recruiters.**
