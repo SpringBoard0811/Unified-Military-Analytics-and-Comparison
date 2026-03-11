@@ -167,7 +167,7 @@ Possible improvements for future versions:
 
 # 👩‍💻 Author
 
-**Shanmukhi**
+**Shanmukhisudha**
 
 Electronics & Communication Engineering
 Passionate about **Data Analytics, AI, and Technology**
