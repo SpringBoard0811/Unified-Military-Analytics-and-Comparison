@@ -196,29 +196,6 @@ Users can seamlessly switch between **global insights, country analysis, and str
 
 ---
 
-# 📂 Repository Structure
-
-```
-military-analytics-dashboard
-│
-├── data
-│   ├── military_dataset.csv
-│   └── processed_dataset.xlsx
-│
-├── dashboards
-│   └── global_military_firepower_2025.twbx
-│
-├── notebooks
-│   └── kpi_generation.ipynb
-│
-├── scripts
-│   └── generate_kpis.py
-│
-└── README.md
-```
-
----
-
 # 📦 Milestone 3 Deliverables
 
 - Fully developed **interactive dashboards**
