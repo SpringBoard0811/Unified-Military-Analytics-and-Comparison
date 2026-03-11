@@ -30,6 +30,7 @@ Additional analytical metrics were created to enhance military comparison and st
 | **Power Index Rank Gap** | Rank Difference | Measures the ranking gap between countries |
 | **Assets per Capita** | Total Assets / Population | Indicates military resources available per citizen |
 | **Budget-to-GDP Ratio** | Defense Budget / GDP | Shows the percentage of economic output spent on defense |
+|**Personnel Ratio** | Active Personnel / Population | Measures the |
 
 These KPIs provide deeper insights into **military capability, resource efficiency, and defense spending priorities**.
 
