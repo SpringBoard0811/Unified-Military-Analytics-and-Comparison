@@ -174,7 +174,7 @@ The analytics system contains **four interactive dashboard modules**.
 
 ## ⚡ Quick Stats
 
-A **global overview dashboard** highlighting major military indicators.
+A **global overview dashboard** provides a high-level overview of global military power by highlighting the top-ranked countries and major defense indicators. Users can explore global rankings, key KPIs, and apply filters such as region, continent, or alliance to quickly understand the overall distribution of military strength.
 
 ### Features
 
@@ -187,7 +187,7 @@ A **global overview dashboard** highlighting major military indicators.
 
 ## 🌎 Nation Overview
 
-A **country-level military intelligence dashboard**.
+A **country-level military intelligence dashboard** displays a detailed military profile for a selected country. It summarizes important metrics such as manpower, aircraft inventory, naval assets, defense budget, and calculated KPIs, helping users understand the strategic capabilities of a single nation.
 
 ### Displays
 
@@ -201,7 +201,7 @@ A **country-level military intelligence dashboard**.
 
 ## ⚔️ Compare Powers
 
-A **side-by-side comparison tool** for analyzing two countries.
+A **side-by-side comparison tool** allows side-by-side comparison of two countries to analyze differences in military resources and strategic indicators. Users can evaluate personnel strength, air and naval assets, defense budgets, and other KPIs to understand relative military capabilities.
 
 ### Comparison Metrics
 
@@ -215,7 +215,7 @@ A **side-by-side comparison tool** for analyzing two countries.
 
 ## 🤝 Coalition Builder
 
-Simulates **combined military strength of alliances**.
+Simulates **combined military strength of alliances** Simulates the combined military strength of multiple countries. By selecting several nations, users can calculate aggregated defense metrics and compare the resulting coalition against another country or alliance to study potential geopolitical power balances.
 
 ### Capabilities
 
@@ -259,5 +259,3 @@ This project delivers a **comprehensive military analytics platform** enabling u
 📈 Explore military power through interactive dashboards
 
 ---
-
-⭐ *If you found this project useful, consider giving it a star on GitHub.*
