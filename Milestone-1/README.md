@@ -3,7 +3,7 @@
 This milestone focuses on collecting global military data and preparing it for analysis. The final output will be a clean, structured dataset ready for visualization and analytics (e.g., Tableau dashboards).
 
 # 🛰️ Module 1: Scraping Setup and Execution
-🎯 Objective
+# 🎯 Objective
 
 Collect country-level military statistics from the URLs provided in the dataset links file.
 
@@ -25,7 +25,7 @@ Each link corresponds to a country-specific webpage containing military statisti
 
 🚢 Naval Assets
 
-#📌 Tasks Performed
+# 📌 Tasks Performed
 
 Use links_for_military_data.txt as the source list of URLs
 
