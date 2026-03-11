@@ -61,12 +61,12 @@ Raw Dataset	military_raw_data.csv
 
 ✔ Data stored in a consistent structured format
 
-#🧹 Module 2: Data Cleaning and Structuring
-#🎯 Objective
+# 🧹 Module 2: Data Cleaning and Structuring
+# 🎯 Objective
 
 Transform the raw scraped dataset into a clean and standardized format suitable for data analysis and visualization.
 
-#📌 Tasks Performed
+# 📌 Tasks Performed
 
 Clean textual numeric values by removing:
 
