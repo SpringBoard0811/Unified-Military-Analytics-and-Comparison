@@ -1,166 +1,257 @@
-🌍 Milestone 1 – Military Data Acquisition & Preparation
-📌 Introduction
+# 🌍 Unified Military Analytics & Comparison Dashboard
+## 📌 Milestone 1 – Data Collection and Preparation
 
-The first milestone of the Unified Military Analytics and Comparison Dashboard focuses on building the data foundation for the project.
-In this stage, military statistics from multiple countries are collected from web sources and transformed into a structured dataset suitable for further analysis.
+---
 
-The primary goal is to create a reliable and clean dataset containing key military indicators that will later be used for comparative analytics and visualization.
+## 📖 Overview
 
-🛰️ Module 1 – Web Data Collection
-🎯 Objective
+Milestone 1 focuses on building the **data foundation** for the Unified Military Analytics and Comparison Dashboard project.
 
-To gather country-wise military statistics by scraping information from the list of URLs provided in the project dataset links file.
+In this stage, military statistics from multiple countries are collected from online sources and transformed into a structured dataset suitable for analysis and visualization.
 
-📂 Source of Data
+The collected data will later support **comparative military analysis and dashboard development**.
 
-The list of webpages used for data extraction is stored in:
+This milestone includes two major stages:
 
+- Web scraping of military statistics
+- Cleaning and structuring the collected dataset
+
+---
+
+# 🎯 Objectives
+
+The primary objectives of this milestone are:
+
+- Collect global military statistics from reliable web sources
+- Extract key defense metrics for each country
+- Store the extracted data in a structured dataset
+- Clean and standardize the collected data
+- Prepare the dataset for visualization and analysis
+
+---
+
+# 🛰️ Module 1 – Military Data Collection
+
+## 📌 Description
+
+This module focuses on collecting **country-level military statistics** using automated web scraping techniques.
+
+Each webpage contains detailed information about a country's military capabilities including equipment counts, defense budgets, and personnel strength.
+
+---
+
+## 📂 Data Source
+
+The list of country URLs used for data extraction is stored in:
+
+```
 links_for_military_data.txt
+```
 
-Each URL in this file corresponds to a country page containing military statistics, including equipment counts, defense spending, and personnel data.
+Each link corresponds to a webpage containing military statistics for a specific country.
 
-📌 Activities Performed
+Examples of extracted metrics include:
 
-During this phase, the following steps were completed:
+- Total Aircraft
+- Total Tanks
+- Naval Assets
+- Active Military Personnel
+- Defense Budget
 
-✔ Read all webpage links from links_for_military_data.txt
+---
 
-✔ Developed a Python script to automatically visit each webpage
+## ⚙️ Technologies Used
 
-✔ Extracted important military indicators including:
+The scraping process was implemented using the following tools:
 
-✈️ Aircraft inventory
+| Tool | Purpose |
+|-----|------|
+| Python | Programming language |
+| Requests | Fetch webpage data |
+| BeautifulSoup | Parse HTML content |
+| Pandas | Organize structured data |
+| CSV | Store extracted dataset |
 
-🛡️ Tank strength
+---
 
-💰 National defense budget
+## 🔄 Data Extraction Workflow
 
-👥 Active military personnel
+```
+Country URLs
+     ↓
+Send Web Requests
+     ↓
+Parse HTML Content
+     ↓
+Extract Military Metrics
+     ↓
+Store in Dataset
+```
 
-🚢 Naval fleet assets
+---
 
-✔ Parsed structured HTML sections to capture numerical values
+## 📌 Tasks Performed
 
-✔ Stored extracted information into a dataset
+- Read all URLs from `links_for_military_data.txt`
+- Access each webpage programmatically
+- Extract military statistics from structured HTML sections
+- Convert extracted values into tabular format
+- Store the data in CSV format
+- Save optional HTML files for debugging
 
-✔ Exported the collected data into CSV format
+---
 
-✔ Saved optional HTML snapshots for troubleshooting purposes
+## 💾 Deliverables
 
-⚙️ Technologies Used
+| Deliverable | Description |
+|-------------|-------------|
+| scrape_military_metrics.py | Python script used for web scraping |
+| military_raw_data.csv | Raw dataset collected from webpages |
 
-The scraping process was implemented using:
+---
 
-Python
+## 📊 Evaluation Criteria
 
-Requests library
+The success of this module is evaluated based on:
 
-BeautifulSoup
+- At least **95% successful URL access**
+- Military statistics collected for **140+ countries**
+- Dataset stored in a **consistent tabular format**
 
-Pandas
+---
 
-These tools allow automated data collection and structured dataset generation.
+# 🧹 Module 2 – Data Cleaning and Preprocessing
 
-💾 Deliverables
-Component	Description
-Scraping Script	scrape_military_metrics.py
-Raw Dataset	military_raw_data.csv
-📊 Quality Checks
+## 📌 Description
 
-To ensure reliable data collection, the following checks were applied:
+The raw dataset obtained from web scraping may contain formatting issues such as symbols, commas, and inconsistent naming conventions.
 
-✔ Successful data retrieval for 95% or more URLs
+This module focuses on cleaning and transforming the dataset into an **analysis-ready format**.
 
-✔ Military indicators collected for 140+ countries
+---
 
-✔ Dataset stored in a consistent tabular format
+## 🔧 Data Cleaning Steps
 
-🧹 Module 2 – Data Processing & Standardization
-🎯 Objective
+The following preprocessing steps were performed:
 
-Prepare the raw dataset for analysis by cleaning, transforming, and standardizing the collected data.
+- Remove formatting characters such as commas and symbols
+- Convert textual numbers into numeric values
+- Standardize column naming conventions
+- Handle missing or null values
+- Ensure dataset consistency
 
-📌 Data Cleaning Steps
+Example standardized column names:
 
-The raw dataset required several preprocessing operations:
-
-✔ Removal of formatting characters such as:
-
-commas ,
-
-percentage signs %
-
-plus symbols +
-
-other non-numeric characters
-
-✔ Conversion of string values into numeric data types
-
-✔ Standardization of column names to maintain uniformity
-
-Example standardized attributes:
-
+```
 total_aircraft
 total_tanks
+naval_assets
 active_personnel
 defense_budget
-naval_assets
+```
 
-✔ Identification and handling of missing values
+---
 
-✔ Validation of dataset structure for compatibility with visualization tools
+## 🧰 Tools Used for Data Processing
 
-🧰 Tools Used for Data Preparation
+| Tool | Purpose |
+|-----|------|
+| Python | Data processing |
+| Pandas | Data transformation |
+| NumPy | Numerical operations |
+| Jupyter Notebook | Data preprocessing workflow |
 
-Python
+---
 
-Pandas
+## 💾 Deliverables
 
-NumPy
+| Deliverable | Description |
+|-------------|-------------|
+| military_cleaned.csv | Clean and structured dataset |
+| clean_data.ipynb | Notebook used for data preprocessing |
 
-Jupyter Notebook
+---
 
-💾 Deliverables
-Component	Description
-Clean Dataset	military_cleaned.csv
-Processing Notebook	clean_data.ipynb
-📊 Validation Criteria
+## 📊 Data Quality Validation
 
-✔ Less than 2% missing values after preprocessing
+The dataset was validated based on the following criteria:
 
-✔ No formatting or structural inconsistencies
+- Less than **2% missing values**
+- No formatting inconsistencies
+- Standardized column names
+- Compatible with visualization tools
 
-✔ Dataset fully prepared for visual analytics platforms
+---
 
-📈 Milestone 1 Output
+# 📈 Final Output of Milestone 1
 
 At the completion of this milestone, the project produces:
 
-✔ 🌍 A global dataset containing military capability indicators
+- A global dataset containing military capability indicators
+- A clean dataset ready for analytics
+- A reproducible pipeline for data collection and preprocessing
+- Structured data ready for visualization dashboards
 
-✔ 📊 A clean and analysis-ready dataset
+---
 
-✔ 🔁 A reproducible pipeline for scraping and preprocessing
+# 🔄 Data Pipeline
 
-✔ 📂 Structured data that can be used for visual dashboards and comparative analysis
-
-🔄 Data Workflow
+```
 Military Web Sources
         ↓
-Automated Web Scraping
+Web Scraping Script
         ↓
-Raw Dataset Creation
+Raw Dataset
         ↓
-Data Cleaning & Standardization
+Data Cleaning
         ↓
-Final Analytical Dataset
-🚀 Result
-Unstructured Military Data → Clean Analytical Dataset
+Structured Dataset
+        ↓
+Visualization & Analytics
+```
 
-This processed dataset will act as the core input for Milestone 2, where the project will focus on:
+---
 
-Data exploration
+# 🚀 Outcome
 
-Comparative military analysis
+```
+Raw Military Data
+        ↓
+Processed Dataset
+        ↓
+Ready for Analysis and Visualization
+```
 
-Interactive dashboards and insights
+This dataset will serve as the **foundation for the next milestone**, where the project will focus on:
+
+- Comparative military analytics
+- Interactive dashboards
+- Insight generation using visualization tools
+
+---
+
+# 📂 Repository Structure
+
+```
+Unified-Military-Analytics-and-Comparison
+
+│
+├── Milestone1
+│   ├── scrape_military_metrics.py
+│   ├── military_raw_data.csv
+│   ├── military_cleaned.csv
+│   ├── clean_data.ipynb
+│   └── README.md
+│
+├── Milestone2
+├── Milestone3
+├── Milestone4
+└── README.md
+```
+
+---
+
+# 👩‍💻 Author
+
+Project: Unified Military Analytics and Comparison Dashboard  
+Milestone: Data Collection and Preparation
