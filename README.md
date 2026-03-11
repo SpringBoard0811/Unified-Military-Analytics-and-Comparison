@@ -37,13 +37,17 @@ Aircraft inventory
 Naval assets
 Defense budgets
 Economic indicators
-🛠 Tech Stack
-Area	Tools / Libraries
-Web Scraping	Python, requests, BeautifulSoup
-Data Processing	pandas, numpy
-Visualization	Power BI, Tableau, Streamlit, Dash
-Integration	filters, parameters, navigation buttons
-Documentation	Markdown, GitHub
+
+# 🛠 Tech Stack
+
+| Area            | Tools / Libraries                       |
+| --------------- | --------------------------------------- |
+| Web Scraping    | Python, requests, BeautifulSoup         |
+| Data Processing | pandas, numpy                           |
+| Visualization   | Power BI, Tableau, Streamlit, Dash      |
+| Integration     | filters, parameters, navigation buttons |
+| Documentation   | Markdown, GitHub                        |
+
 📂 Repository Structure
 Unified-Military-Analytics-Dashboard/
 │
