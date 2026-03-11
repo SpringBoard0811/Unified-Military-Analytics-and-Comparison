@@ -160,3 +160,16 @@ At the completion of Milestone 2, the following outcomes were achieved:
 - Development of an **initial dashboard prototype**
 
 These outcomes establish a **strong analytical foundation for the final Military Analytics Dashboard**.
+# 🚀 Milestone Outcomes
+✨ Developed **4 key KPIs**:  
+- 📈 Power Index Rank Gap  
+- ⚙️ Assets per Capita  
+- 💰 Budget-to-GDP Ratio  
+- 👥 Personnel Ratio  
+🌍 Enhanced dataset with **region, continent, and alliance metadata**.  
+📁 Prepared a **clean visualization-ready dataset** for Tableau/Power BI.  
+🧭 Designed **dashboard wireframes and interaction flow**.  
+🧪 Built an **initial dashboard prototype**.
+
+✅ **Outcome:** A **well-structured dataset and dashboard blueprint** ready for full visualization development.
+
