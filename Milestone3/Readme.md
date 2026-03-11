@@ -1,50 +1,67 @@
 # 📊 Milestone 3 – Full Dashboard Development
 
-## 📌 Project
-**Unified Military Analytics and Comparison Dashboard**
+---
 
-Milestone 3 focuses on building the **complete interactive dashboard suite** using the KPI-enhanced dataset created in the previous milestones.  
+# 🌍 Unified Military Analytics and Comparison Dashboard
 
-In this phase, the dashboards are developed to allow users to **explore, compare, and analyze global military capabilities** through interactive visualizations.
+Milestone 3 focuses on developing the **complete interactive dashboard system** for analyzing global military capabilities.
 
-The dashboard system consists of **four interconnected modules**:
+Using the **KPI-enhanced dataset** created in earlier milestones, this phase transforms structured data into **dynamic visual analytics dashboards** that allow users to:
 
-- Quick Stats  
-- Nation Overview  
-- Compare Powers  
-- Coalition Builder  
-
-These dashboards are integrated using **filters, parameters, and navigation controls** to provide a seamless analytical experience.
+- Explore global military strength
+- Analyze individual country capabilities
+- Compare nations side-by-side
+- Simulate military coalitions
 
 ---
 
-# 🎯 Objectives
+# 📑 Table of Contents
 
-- Develop fully functional **interactive dashboards**
-- Visualize **military indicators and KPIs**
-- Enable **country selection and comparison**
-- Implement **multi-dashboard navigation**
-- Provide **coalition analysis of military capabilities**
+- Project Overview
+- Dashboard Modules
+- Dashboard Architecture
+- Key Visualizations
+- Interactive Features
+- Dashboard Navigation
+- Repository Structure
+- Deliverables
+- Final Outcomes
 
 ---
 
-# 🧩 Module 5 – Quick Stats and Nation Overview Dashboards
+# 📌 Project Overview
 
-## Quick Stats Dashboard
+The **Unified Military Analytics Dashboard** is designed to provide a **comprehensive visualization platform** for analyzing global military power.
 
-The **Quick Stats dashboard** provides a global overview of military strength indicators.
+The dashboard integrates multiple modules to help users explore:
 
-### Features
+✔ Global military rankings  
+✔ Country-level military statistics  
+✔ Comparative military strength  
+✔ Strategic alliance capabilities  
 
-- Display **Top 10 countries by Power Index**
-- KPI cards with **dynamic values**
-- Filters for:
-  - Region
-  - Continent
-  - Alliance (e.g., NATO)
-- Overview of global military rankings
+All dashboards are connected through **interactive filters, parameters, and navigation controls**.
 
-### Visual Elements
+---
+
+# 🧩 Dashboard Modules
+
+The dashboard suite consists of **four major analytical modules**.
+
+---
+
+## 1️⃣ Quick Stats Dashboard
+
+Provides a **high-level overview of global military power**.
+
+### Key Insights
+
+- Top countries by **Power Index**
+- Defense spending leaders
+- Military assets distribution
+- Global rankings overview
+
+### Visualizations
 
 - Bar charts
 - KPI cards
@@ -53,121 +70,180 @@ The **Quick Stats dashboard** provides a global overview of military strength in
 
 ---
 
-## Nation Overview Dashboard
+## 2️⃣ Nation Overview Dashboard
 
-The **Nation Overview dashboard** provides a detailed analysis of a selected country.
+Provides **detailed insights into a selected country's military capabilities**.
 
-### Features
+### Key Metrics
 
-- Country selector to view full military profile
-- Visualization of key metrics including:
-  - Personnel
-  - Aircraft
-  - Naval strength
-  - Defense budget
-- Tooltips displaying **rank and comparisons**
+- Military personnel
+- Aircraft count
+- Naval fleet strength
+- Defense budget
+- Power Index score
 
-### Visual Elements
+### Visualizations
 
-- Bar charts
 - Radar charts
 - Metric cards
-- Interactive tooltips
+- Asset comparison charts
+- Tooltips with ranking insights
 
 ---
 
-# 🧩 Module 6 – Compare Powers and Coalition Builder
+## 3️⃣ Compare Powers Dashboard
 
-## Compare Powers Dashboard
+Enables **side-by-side comparison between two countries**.
 
-The **Compare Powers dashboard** enables side-by-side comparison between two countries.
+### Comparison Metrics
 
-### Features
-
-- Select **two countries** using parameters
-- Compare metrics such as:
-  - Manpower
-  - Aircraft
-  - Naval assets
-  - Defense budget
-  - KPI metrics
+- Personnel strength
+- Aircraft and air power
+- Naval assets
+- Defense budget
+- KPI indicators
 
 ### Visualization Techniques
 
 - Side-by-side bar charts
-- Comparative KPI indicators
+- Comparative KPI cards
 - Parameter-based country selection
 
 ---
 
-## Coalition Builder Dashboard
+## 4️⃣ Coalition Builder Dashboard
 
-The **Coalition Builder dashboard** allows simulation of combined military power for multiple countries.
+Allows users to **simulate combined military strength of multiple countries**.
 
-### Features
+### Coalition Analysis
 
-- Multi-country selection
-- Aggregated totals for coalition metrics
-- Ability to compare coalition strength against:
-  - Another coalition
-  - A reference country
-
-### Metrics Aggregated
+Users can create alliances and analyze:
 
 - Total military personnel
 - Combined aircraft
-- Naval assets
-- Defense budgets
+- Naval fleet size
+- Total defense budget
+
+This module helps explore **strategic military alliances and partnerships**.
 
 ---
 
-# 🔗 Dashboard Integration
+# 🏗 Dashboard Architecture
 
-All dashboards are connected to provide a **unified analytical environment**.
-
-Integration features include:
-
-- Navigation buttons between dashboards
-- Shared filters across modules
-- Parameter-driven country selection
-- Interactive user interface
-
-This integration allows users to move seamlessly between **global insights, country analysis, comparisons, and coalition simulations**.
+```
+Military Dataset
+      │
+      ▼
+Data Cleaning & Processing
+      │
+      ▼
+KPI Feature Engineering
+      │
+      ▼
+Visualization Tool (Tableau / Power BI)
+      │
+      ▼
+Interactive Dashboards
+      │
+      ▼
+User Interaction
+(Filters • Comparisons • Exploration)
+```
 
 ---
 
-# 📦 Deliverables
+# 📊 Key Visualizations Used
 
-The outputs generated in Milestone 3 include:
+| Visualization | Purpose |
+|---------------|---------|
+| Bar Charts | Compare military assets |
+| Radar Charts | Country capability overview |
+| KPI Cards | Display key indicators |
+| Ranking Charts | Show global military rankings |
+| Parameter Filters | Enable dynamic country comparison |
+
+---
+
+# 🎮 Interactive Features
+
+The dashboard provides multiple interactive elements:
+
+✔ Country selection filters  
+✔ Region and continent filters  
+✔ Parameter-driven country comparisons  
+✔ Multi-page navigation  
+✔ Interactive tooltips for deeper insights  
+
+These features allow users to **explore military analytics dynamically**.
+
+---
+
+# 🧭 Dashboard Navigation
+
+The dashboards are connected through **navigation buttons** allowing smooth transitions between modules:
+
+```
+Quick Stats
+     ↓
+Nation Overview
+     ↓
+Compare Powers
+     ↓
+Coalition Builder
+```
+
+Users can seamlessly switch between **global insights, country analysis, and strategic comparisons**.
+
+---
+
+# 📂 Repository Structure
+
+```
+military-analytics-dashboard
+│
+├── data
+│   ├── military_dataset.csv
+│   └── processed_dataset.xlsx
+│
+├── dashboards
+│   └── global_military_firepower_2025.twbx
+│
+├── notebooks
+│   └── kpi_generation.ipynb
+│
+├── scripts
+│   └── generate_kpis.py
+│
+└── README.md
+```
+
+---
+
+# 📦 Milestone 3 Deliverables
+
+- Fully developed **interactive dashboards**
+- Integrated **Quick Stats module**
+- Functional **Nation Overview dashboard**
+- **Country comparison module**
+- **Coalition simulation dashboard**
+- Tableau dashboard workbook
 
 ```
 global_military_firepower_2025.twbx
 ```
 
-Final Tableau dashboard workbook containing:
-
-- Quick Stats dashboard
-- Nation Overview dashboard
-- Compare Powers dashboard
-- Coalition Builder dashboard
-
-Additional deliverables:
-
-- Fully integrated dashboards
-- Interactive filters and parameters
-- Navigation controls between dashboards
-
 ---
 
 # 🎯 Final Outcomes
 
-At the completion of Milestone 3, the following outcomes are achieved:
+At the completion of Milestone 3, the project successfully delivers:
 
-- Development of **four fully functional dashboards**
-- Implementation of **interactive filters and parameters**
-- Ability to **analyze individual countries**
-- Capability to **compare military strength between nations**
-- Simulation of **coalition military capabilities**
-- Creation of a **comprehensive military analytics dashboard system**
+✔ A **fully interactive military analytics dashboard system**  
+✔ Visualization of **global military strength indicators**  
+✔ Tools for **country-level military analysis**  
+✔ Capability to **compare military power between nations**  
+✔ Simulation of **coalition military capabilities**  
 
-This milestone transforms the processed dataset into a **fully interactive visualization platform for global military analysis**.
+This milestone converts the structured dataset into a **powerful data visualization platform for global military analysis**.
+
+---
