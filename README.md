@@ -48,7 +48,10 @@ Economic indicators
 | Integration     | filters, parameters, navigation buttons |
 | Documentation   | Markdown, GitHub                        |
 
-📂 Repository Structure
+
+# 📂 Repository Structure
+
+```text
 Unified-Military-Analytics-Dashboard/
 │
 ├── Milestone-1/
@@ -70,7 +73,7 @@ Unified-Military-Analytics-Dashboard/
 │   └── README.md
 │
 └── README.md
-Each milestone folder contains the notebooks, scripts, and documentation related to that development stage.
+```
 
 📊 Dashboard Modules
 The final analytics suite consists of four interactive modules.
