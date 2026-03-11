@@ -89,15 +89,15 @@ The project is designed as a **multi-stage analytics pipeline** transforming raw
 
 
 Data Extraction
-↓
+      ↓
 Raw Dataset Generation
-↓
+      ↓
 Data Cleaning & Transformation
-↓
+      ↓
 Strategic KPI Computation
-↓
+      ↓
 Dashboard Development
-↓
+      ↓
 Interactive Military Analytics Platform
 
 
