@@ -119,46 +119,48 @@ This stack enables seamless transition from **data acquisition → analysis → 
 
 ---
 
+
+
 # 📂 Repository Structure
 
-
+```
 Unified-Military-Analytics-Dashboard/
 │
 ├── Milestone-1/
-│ ├── scrape_military_metrics.ipynb
-│ ├── data/
-│ │ ├── raw_data/
-│ │ └── transformed_data/
-│ └── README.md
+│   ├── scrape_military_metrics.ipynb
+│   ├── data/
+│   │   ├── raw_data/
+│   │   └── transformed_data/
+│   └── README.md
 │
 ├── Milestone-2/
-│ ├── kpi_engineering.ipynb
-│ ├── data/
-│ │ ├── raw_data/
-│ │ └── transformed_data/
-│ └── README.md
+│   ├── kpi_engineering.ipynb
+│   ├── data/
+│   │   ├── raw_data/
+│   │   └── transformed_data/
+│   └── README.md
 │
 ├── Milestone-3/
-│ ├── Quick_stats_Dashboard/
-│ │ └── Quick_stats.pbix
-│ │
-│ ├── Nation_Overview_Dashboard/
-│ │ └── Nation_Overview.pbix
-│ │
-│ ├── Compare_Powers_Dashboard/
-│ │ └── Compare_Powers.pbix
-│ │
-│ ├── Coalition_Builder_Dashboard/
-│ │ └── Coalition_Builder.pbix
-│ │
-│ └── README.md
+│   ├── Quick_stats_Dashboard/
+│   │   └── Quick_stats.pbix
+│   │
+│   ├── Nation_Overview_Dashboard/
+│   │   └── Nation_Overview.pbix
+│   │
+│   ├── Compare_Powers_Dashboard/
+│   │   └── Compare_Powers.pbix
+│   │
+│   ├── Coalition_Builder_Dashboard/
+│   │   └── Coalition_Builder.pbix
+│   │
+│   └── README.md
 │
 ├── Milestone-4/
-│ ├── testing_and_validation.ipynb
-│ └── README.md
+│   ├── testing_and_validation.ipynb
+│   └── README.md
 │
 └── README.md
-
+```
 
 Each milestone represents a **phase of the data engineering pipeline** including scripts, notebooks, dashboards, and documentation.
 
