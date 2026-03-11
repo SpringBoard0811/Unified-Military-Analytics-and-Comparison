@@ -1,13 +1,13 @@
-🎯 Milestone 1 – Data Collection & Preparation
+# 🎯 Milestone 1 – Data Collection & Preparation
 
 This milestone focuses on collecting global military data and preparing it for analysis. The final output will be a clean, structured dataset ready for visualization and analytics (e.g., Tableau dashboards).
 
-🛰️ Module 1: Scraping Setup and Execution
+# 🛰️ Module 1: Scraping Setup and Execution
 🎯 Objective
 
 Collect country-level military statistics from the URLs provided in the dataset links file.
 
-📂 Data Source
+# 📂 Data Source
 
 The URLs used for data collection are listed in the file:
 
@@ -25,7 +25,7 @@ Each link corresponds to a country-specific webpage containing military statisti
 
 🚢 Naval Assets
 
-📌 Tasks Performed
+#📌 Tasks Performed
 
 Use links_for_military_data.txt as the source list of URLs
 
@@ -49,10 +49,11 @@ Store extracted data in a structured CSV dataset
 
 Save per-country HTML files for debugging (optional)
 
-💾 Deliverables
+# 💾 Deliverables
 Item	Description
 Raw Dataset	military_raw_data.csv
-📊 Evaluation Criteria
+
+# 📊 Evaluation Criteria
 
 ✔ ≥ 95% URL success rate from the provided list
 
@@ -60,12 +61,12 @@ Raw Dataset	military_raw_data.csv
 
 ✔ Data stored in a consistent structured format
 
-🧹 Module 2: Data Cleaning and Structuring
-🎯 Objective
+#🧹 Module 2: Data Cleaning and Structuring
+#🎯 Objective
 
 Transform the raw scraped dataset into a clean and standardized format suitable for data analysis and visualization.
 
-📌 Tasks Performed
+#📌 Tasks Performed
 
 Clean textual numeric values by removing:
 
@@ -93,12 +94,13 @@ Handle missing / null values appropriately
 
 Ensure dataset compatibility with Tableau visualization
 
-💾 Deliverables
+# 💾 Deliverables
 Item	Description
 Clean Dataset	military_cleaned.csv
 Notebook	web_scraping_one_country.ipynb
 Automation Notebook	automate_scraping_urls.ipynb
-📊 Evaluation Criteria
+
+# 📊 Evaluation Criteria
 
 ✔ < 2% missing/null values after cleaning
 
@@ -106,7 +108,7 @@ Automation Notebook	automate_scraping_urls.ipynb
 
 ✔ Dataset ready for Tableau visualization and analysis
 
-📈 Final Output of Milestone 1
+# 📈 Final Output of Milestone 1
 
 By the end of this milestone we will have:
 
@@ -118,7 +120,7 @@ By the end of this milestone we will have:
 
 ✔ 📂 Dataset ready for use in visual analytics and dashboards
 
-🚀 Outcome
+# 🚀 Outcome
 Raw Military Data → Clean Analytical Dataset
 
 This dataset will serve as the foundation for the next milestone, where the data will be used for comparative analytics, visual dashboards, and military capability insights.
