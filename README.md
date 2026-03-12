@@ -56,7 +56,7 @@ Dataset Coverage:
 | Data Extraction | Python, Requests, BeautifulSoup |
 | Data Processing | Pandas, NumPy |
 | Visualization | Power BI, Tableau, Streamlit |
-| Development | Jupyter Notebook |
+| Development | Google Colab |
 | Documentation | Markdown, GitHub |
 
 ---
