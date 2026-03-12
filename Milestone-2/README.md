@@ -30,7 +30,7 @@ Derived metrics are created to enable deeper insights into global military capab
 | Item    | Description           |
 | ------- | --------------------- |
 | Dataset | `military_final.xlsx` |
-| Script  | `generate_kpis.py`    |
+| Script  | `KPI_Generation.ipynb`    |
 
 ---
 
