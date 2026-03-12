@@ -1,84 +1,32 @@
-# Milestone 1 – Data Collection & Data Cleaning
+# 📌 Milestone 1 – Data Collection & Data Cleaning
 
-## Overview
+## 🔍 Overview
 
-The objective of this milestone is to collect global military power data and prepare a clean dataset for further analysis and dashboard development.
-Raw data is collected, examined, and cleaned so that it can be used for analytical tasks in the next milestones.
+The objective of this milestone is to establish the foundational dataset for the **Unified Military Analytics** project by collecting and preparing global military power data for further analytical processing and dashboard development.
 
-## Data Source
+## ⚙️ Key Activities
 
-The dataset was collected from the website:
+* Identified the primary military and economic indicators required for analysis, including **manpower, aircraft, naval assets, tanks, defense budget, and GDP**.
+* Collected country-level military statistics from **GlobalFirepower.com 🌐**.
+* Constructed an initial **raw dataset** containing military metrics for multiple countries.
+* Examined the dataset to identify inconsistencies such as formatting symbols, commas in numeric values, and missing entries.
+* Performed data cleaning by removing unnecessary characters, converting values into numeric formats, and standardizing column names.
+* Generated a structured and analysis-ready dataset.
 
-https://www.globalfirepower.com
+## 📂 Data Files
 
-This website provides country-level military statistics including manpower, military equipment, defense budget, and economic indicators.
+**Raw Dataset**
+`DATA/RAW/military_raw_data.csv`
 
-## Tasks Completed
+**Cleaned Dataset**
+`DATA/TRANSFORMED/military_cleaned_data.csv`
 
-### 1. Data Collection
+## 🧪 Implementation
 
-Military data was collected for multiple countries using the provided source.
-The following fields were gathered:
+`Milestone 1 – Data Collection & Data Cleaning.ipynb`
 
-* Country
-* Power Index Rank
-* Total Manpower
-* Active Personnel
-* Reserve Personnel
-* Total Aircraft
-* Fighter Aircraft
-* Naval Assets
-* Tanks
-* Defense Budget
-* GDP
+Contains the complete workflow for **data collection, preprocessing, and dataset preparation**.
 
-### 2. Raw Dataset Creation
+## 🎯 Outcome
 
-The collected data was stored in its original form without modification.
-The dataset contained:
-
-* Numeric values with commas
-* Symbols such as %
-* Missing values in some fields
-
-The raw dataset was exported as:
-
-**military_raw_data.csv**
-
-### 3. Data Cleaning & Standardization
-
-The raw dataset was cleaned and prepared for analysis.
-
-Cleaning steps included:
-
-* Removing commas and special characters
-* Converting values to numeric data types
-* Handling missing values
-* Standardizing column names
-* Ensuring consistent data formatting
-
-The cleaned dataset was exported as:
-
-**military_cleaned_data.csv**
-
-## Files Included
-
-This milestone folder contains the following files:
-
-* `Milestone 1 – Data Collection & Data Cleaning.ipynb`
-  Jupyter Notebook containing the data collection and cleaning implementation.
-
-* `military_raw_data.csv`
-  Raw dataset collected from the source.
-
-* `military_cleaned_data.csv`
-  Cleaned dataset ready for analysis.
-
-## Outcome
-
-At the end of Milestone 1:
-
-* Military data was successfully collected from the source website.
-* The dataset was cleaned and standardized.
-* The cleaned dataset is ready for further analysis and KPI engineering in the next milestone.
-
+This milestone produced a **clean and structured military dataset** that will serve as the foundation for **KPI engineering and advanced analytics in the next milestone**.
