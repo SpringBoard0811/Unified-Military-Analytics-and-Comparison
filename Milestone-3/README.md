@@ -1,181 +1,63 @@
 # 🎯 Milestone 3 – Full Dashboard Development
 
+This milestone focuses on building the **interactive dashboard system using Microsoft Power BI** to analyze and compare global military power.
 
-This milestone focuses on building the **complete interactive dashboard system using Microsoft Power BI** for analyzing and comparing global military power.
-
-The goal is to develop **four fully integrated dashboards** that allow users to explore global military data, compare countries, and simulate coalition strength.
-
----
-
-# ⚡ Module 1: Build Quick Stats & Nation Overview Dashboards
-
-## 🎯 Objective
-
-Create dashboards that provide **high-level global insights and detailed country-level military profiles**.
+The objective is to create **four connected dashboards** that allow users to explore country capabilities, compare nations, and simulate coalition strength.
 
 ---
 
-## 📊 Quick Stats Dashboard
+## ⚡ Quick Stats & Nation Overview
 
-### 📌 Tasks Performed
+### Tasks
 
-✔ Display **Top 10 countries by Power Index**
+✔ Show **Top 10 countries by Power Index**
+✔ Add filters for **Region, Continent, and Alliance**
+✔ Display KPI cards for key indicators (rank, budget, aircraft, personnel)
 
-✔ Add interactive filters:
+✔ Allow users to **select a country** and view its full military profile
+✔ Visualize metrics using **bar charts, radar charts, and comparisons**
+✔ Add tooltips showing rankings and comparisons.
 
-* 🌍 Region
-* 🌎 Continent
-* 🤝 Alliance membership (e.g., NATO)
+### Deliverables
 
-✔ Add **dynamic KPI cards** to display key indicators such as:
-
-* Military rank
-* Defense budget
-* Total aircraft
-* Active personnel
-* Naval assets
-
-✔ Enable quick insights into **global military power distribution**.
+| Item                | Description                       |
+| ------------------- | --------------------------------- |
+| Dashboard Pages     | Quick Stats and Nation Overview   |
+| Dashboard Prototype | Sample working Power BI dashboard |
 
 ---
 
-## 🌍 Nation Overview Dashboard
+## ⚔️ Compare Powers & Coalition Builder
 
-### 📌 Tasks Performed
+### Tasks
 
-✔ Allow users to **select a country** and display its full military profile.
+✔ Enable **side-by-side comparison of two countries**
+✔ Compare manpower, aircraft, naval assets, defense budget, and KPIs
 
-✔ Visualize metrics using:
+✔ Allow **multi-country selection** to simulate coalitions
+✔ Show aggregated coalition totals (manpower, aircraft, navy, budget)
 
-* 📊 Bar charts
-* 📈 Radar charts
-* 📉 Comparative charts
+✔ Integrate dashboards with **navigation buttons and shared filters**.
 
-✔ Display key metrics such as:
+### Deliverables
 
-* Personnel strength
-* Air power
-* Naval assets
-* Defense spending
-* Engineered KPIs
-
-✔ Add **tooltips** that show:
-
-* Global ranking
-* Comparison with other countries.
-
----
-
-## 💾 Deliverables
-
-| Item                      | Description                       |
-| ------------------------- | --------------------------------- |
-| **Dashboard Application** | Sample working Power BI dashboard |
-| **Dashboard Pages**       | Quick Stats and Nation Overview   |
+| Item                  | Description                                                     |
+| --------------------- | --------------------------------------------------------------- |
+| Final Dashboard File  | `global_military_firepower_2025.pbix`                           |
+| Integrated Dashboards | Quick Stats, Nation Overview, Compare Powers, Coalition Builder |
 
 ---
 
 ## 📊 Evaluation Criteria
 
-✔ Country and region filters **work correctly**
-✔ Nation Overview page **visualizes all major military metrics**
+✔ Filters and slicers work correctly
+✔ Dashboards allow seamless navigation
+✔ Country comparisons and coalition analysis function properly
 
 ---
 
-# ⚔️ Module 2: Build Compare Powers & Coalition Builder Dashboards
+## 🚀 Outcome
 
-## 🎯 Objective
+Engineered Dataset → **Interactive Power BI Dashboard System**
 
-Enable users to **compare military capabilities between countries and simulate alliances using Power BI interactive visuals**.
-
----
-
-## ⚖️ Compare Powers Dashboard
-
-### 📌 Tasks Performed
-
-✔ Create **side-by-side comparison** of any **two countries**
-
-✔ Compare metrics such as:
-
-* 👥 Manpower
-* ✈️ Aircraft
-* 🚢 Naval assets
-* 💰 Defense budget
-* 📊 Engineered KPIs
-
-✔ Use **Power BI slicers or parameters** for dynamic country selection.
-
----
-
-## 🤝 Coalition Builder Dashboard
-
-### 📌 Tasks Performed
-
-✔ Allow **multi-country selection** using filters or slicers.
-
-✔ Display **aggregated coalition totals** including:
-
-* Combined manpower
-* Total aircraft
-* Total naval assets
-* Combined defense budget
-
-✔ Compare coalition strength against:
-
-* Another coalition
-* A reference country.
-
----
-
-## 🔗 Dashboard Integration
-
-### 📌 Tasks Performed
-
-✔ Add **navigation buttons** between dashboard pages.
-
-Example navigation:
-
-* Quick Stats → Nation Overview
-* Quick Stats → Compare Powers
-* Compare Powers → Coalition Builder
-
-✔ Link filters and slicers across dashboards for **consistent interactions**.
-
----
-
-## 💾 Deliverables
-
-| Item                      | Description                                                     |
-| ------------------------- | --------------------------------------------------------------- |
-| **Final Power BI File**   | `global_military_firepower_2025.pbix`                           |
-| **Integrated Dashboards** | Quick Stats, Nation Overview, Compare Powers, Coalition Builder |
-
----
-
-## 📊 Evaluation Criteria
-
-✔ **Smooth navigation** between dashboard pages
-✔ Compare Powers dashboard works with **any two countries**
-✔ Coalition Builder works with **multiple country selections**
-✔ All slicers and interactions behave correctly
-
----
-
-# 📈 Final Output of Milestone 3
-
-By the end of this milestone, the project will include:
-
-✔ 📊 Fully interactive **Power BI dashboard system**
-✔ 🌍 Global military comparison analytics
-✔ ⚔️ Side-by-side country comparison tools
-✔ 🤝 Coalition military strength simulator
-✔ 🔗 Integrated dashboard navigation
-
----
-
-# 🚀 Outcome
-
-Clean Dataset → KPI Engineering → **Interactive Global Military Power BI Dashboard System**
-
-Users will be able to **explore, compare, and analyze military capabilities across the world using interactive Power BI dashboards**.
+Users can explore global military capabilities, compare nations, and analyze coalition strength through interactive dashboards.
