@@ -1,4 +1,4 @@
-# 📊 Milestone 2 – Power BI Dashboard (Nation Military Overview)
+# 📊 Milestone 2 – Power BI Dashboard (Quick Stats)
 
 This milestone focuses on building the **first Power BI dashboard** for the project.
 The goal of this dashboard is to provide a **quick overview of global military power and country-level military capabilities** using the cleaned dataset created in **Milestone 1**.
