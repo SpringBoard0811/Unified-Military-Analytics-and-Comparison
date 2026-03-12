@@ -29,8 +29,6 @@ Data has been collected for **140+ countries**.
 
 ## Files in Milestone 1
 - `Milestone_1.ipynb` → Notebook containing scraping and parsing pipeline
-- `scrape_military_metrics.py` → Python script for automated scraping
-- `links_for_military_data.txt` → Source URLs used for scraping
 - `Military_raw_Data.csv` → Final raw dataset
 
 ## Technologies Used
@@ -45,3 +43,4 @@ A structured dataset of global military statistics that will be used in the next
 - Data cleaning
 - Feature engineering
 - Dashboard visualization
+
