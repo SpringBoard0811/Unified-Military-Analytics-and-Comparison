@@ -57,13 +57,13 @@ Example metrics:
 
 # 🛠 Tech Stack
 
-| Area            | Tools / Libraries                       |
-| --------------- | --------------------------------------- |
-| Web Scraping    | Python, requests, BeautifulSoup         |
-| Data Processing | pandas, numpy                           |
-| Visualization   | Power BI, Tableau, Streamlit, Dash      |
-| Integration     | filters, parameters, navigation buttons |
-| Documentation   | Markdown, GitHub                        |
+| Area | Technologies |
+|-----|--------------|
+| 🌐 **Web Scraping** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="22"/> Python, Requests, BeautifulSoup |
+| ⚙️ **Data Processing** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="22"/> Pandas, NumPy |
+| 📊 **Visualization** | <img src="https://img.icons8.com/color/48/power-bi.png" width="22"/> Power BI  &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="22"/> Streamlit |
+| 🔗 **Integration** | Filters, Parameters, Navigation Buttons |
+| 📄 **Documentation** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="22"/> GitHub  &nbsp; 📝 Markdown |
 
 ---
 
