@@ -24,11 +24,11 @@ The primary objective of this project is to develop a Military Analytics Dashboa
 
 ## Project Structure
 
-Unified-Military-Analytics/
-│
-├── Milestone_1.ipynb
-├── Military_raw_Data.csv
-├── README.md
+Unified-Military-Analytics
+
+─ Milestone_1.ipynb
+─ Military_raw_Data.csv
+─ README.md
 
 ## Data Collection
 Military statistics are collected through automated web scraping techniques. The project retrieves web pages containing defense-related metrics such as:
