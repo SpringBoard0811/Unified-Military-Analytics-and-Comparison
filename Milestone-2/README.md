@@ -27,11 +27,11 @@ Measures the relationship between military equipment and available manpower.
 **Formula**
 
 Assets per Capita =
-('military_cleaned'[total_aircraft] +
- 'military_cleaned'[tanks] +
- 'military_cleaned'[naval_assets])
+('clean_military_data'[total_aircraft] +
+ 'clean_military_data'[tanks] +
+ 'clean_military_data'[naval_assets])
  /
- 'military_cleaned'[total_manpower]
+ 'clean_military_data'[total_manpower]
 
  ---
 
@@ -42,7 +42,7 @@ Represents the proportion of a country’s economic output allocated to defense 
 **Formula**
 
 Budget-to-GDP Ratio =  
-'military_cleaned'[defense_budget] / 'military_cleaned'[gdp]
+'clean_military_data'[defense_budget] / 'clean_military_data'[gdp]
 
 ---
 
@@ -54,12 +54,12 @@ Measures the difference between a country's military power ranking and the top-r
 
 Power Index Rank Gap =
 RANKX(
-    ALL('military_cleaned'),
-    'military_cleaned'[global_power_rank]
+    ALL('clean_military_data'),
+    'clean_military_data'[p_rank]
 )
 
--
-MIN('military_cleaned'[global_power_rank])
+
+MIN('military_cleaned'[p_rank])
 
 These KPIs allow the dashboard to highlight **military efficiency, strategic investment, and relative defense strength among countries.**
 
