@@ -89,8 +89,7 @@ The dashboard architecture was designed to provide multiple analytical perspecti
 
 The following dashboard modules were conceptualized to guide the final visualization system.
 
-## Planned Dashboard Modules  
-Data/Sample_1.png
+## Planned Dashboard Modules  Data/Sample_1.png
 
 ### ⚡ Quick Stats
 Global overview of military KPIs and aggregated statistics.
