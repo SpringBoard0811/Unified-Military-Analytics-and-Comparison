@@ -5,104 +5,146 @@
 
 ## 📌 Project Overview
 
-The Unified Military Analytics and Comparison Dashboard aims to create a comprehensive analytical platform for exploring and comparing global military capabilities.  
-This platform will integrate structured military datasets and interactive dashboards to provide insights into defense strength, resource distribution, and global military rankings.
+The **Unified Military Analytics and Comparison Dashboard** aims to develop an analytical platform for exploring and comparing global military capabilities across countries.
 
-Milestone 1 focuses on the data acquisition and preparation stage, where raw military statistics are collected from publicly available sources and transformed into a structured dataset suitable for analysis and visualization.
+The platform integrates structured military datasets and interactive dashboards to provide insights into **defense strength, resource distribution, and global military rankings**.
 
-The prepared dataset will serve as the foundation for upcoming milestones involving data cleaning, feature engineering, and dashboard development.
+**Milestone 1** focuses on the **data acquisition and preparation stage**, where military statistics are collected from publicly available sources, processed, and converted into structured datasets ready for analysis and visualization.
 
----
+This milestone is divided into two core modules:
 
-## 🎯 Objectives of Milestone 1
+- **Module 1 – Scraping Setup and Execution**
+- **Module 2 – Data Cleaning and Structuring**
+- **Pipeline:**
+**Web Scraping → Raw Dataset → Feature Selection → Data Cleaning → Final Dataset**
 
-- Collect global military statistics from publicly available web sources
-- Automate the data extraction process using web scraping
-- Parse and structure HTML content into machine-readable format
-- Clean numerical values and standardize units
-- Store the processed data in a structured dataset for further analysis
+Together, these modules establish the **data foundation required for analytics and dashboard development in later milestones.**
 
 ---
 
-## ⚙️ Tasks Implemented
+# ⚙️ Module 1 – Scraping Setup and Execution
 
-The following tasks were completed during this milestone:
+This module implements the **automated web scraping pipeline** used to collect global military statistics.
 
-✔ Automated scraping of military statistics webpages  
-✔ Extraction of country-level defense metrics  
-✔ Parsing HTML content using BeautifulSoup  
-✔ Cleaning and standardizing numerical values  
-✔ Structuring the extracted data using Pandas  
-✔ Exporting the dataset to a CSV file for downstream analysis  
+The scraping process uses the file **`links_for_military_data.txt`** as the centralized source of all required URLs. These URLs correspond to different military metrics such as aircraft strength, tank inventory, naval assets, defense budgets, and manpower statistics.
+
+The scraping system retrieves country-level military data, parses the relevant metric blocks from each webpage, and stores the extracted information in structured format.
+
+For debugging and traceability purposes, the raw HTML pages may also be saved locally.
+
+### Key Tasks Implemented
+
+- Automated scraping of military statistics webpages
+- Retrieval of URLs from **`https://www.globalfirepower.com/`**
+- Extraction of **country-level military metrics**
+- Parsing HTML content using **BeautifulSoup**
+- Saving raw HTML pages for debugging (optional)
+- Structuring extracted data into CSV format
+
+### Deliverables
+
+- **Raw Dataset:** `Military_Raw_Data.csv`
+
+### Evaluation Criteria
+
+- At least **95% successful URL retrieval** from the provided URL list
+- Correct parsing of **military metric blocks**
+- Successful extraction of statistics for **140+ countries**
+
+This module produces the **raw dataset that serves as the input for the data preprocessing stage.**
 
 ---
 
-## 📊 Generated Dataset
+# 🧹 Module 2 – Data Cleaning and Structuring
 
-The data collected during the scraping process has been compiled into the following dataset:
+The second module focuses on transforming the raw dataset into a **clean, structured, and analysis-ready format**.
 
-**`Military_raw_Data.csv`**
+Since web-scraped data often contains formatting inconsistencies such as commas, percentage signs, plus symbols, or textual annotations, a systematic data cleaning process is implemented.
 
-This dataset contains military statistics for 140+ countries worldwide.
+The dataset is processed to remove unwanted characters, convert textual values into numeric format, and standardize column names to maintain consistency across the dataset.
 
-### Key Metrics Included
+Missing values are also handled to ensure the dataset remains reliable for analytical and visualization purposes.
 
-The dataset includes the following attributes:
+### Key Tasks Implemented
+
+- Removing formatting symbols (`,`, `%`, `+`, etc.)
+- Converting metrics into **numeric values**
+- Standardizing column naming conventions
+- Handling missing or null values
+- Preparing a structured dataset for analytics tools
+
+### Deliverables
+
+- **Clean Dataset:** `Final_Military_Data.csv`
+
+### Evaluation Criteria
+
+- **Less than 2% missing or null values** after cleaning
+- Consistent numeric formatting across dataset columns
+- No structural or schema errors in the final dataset
+
+This module ensures that the dataset becomes **fully prepared for analytics, feature engineering, and dashboard visualization.**
+
+---
+
+# 📊 Key Military Metrics Collected
+
+The dataset contains multiple military capability indicators, including:
 
 - ✈ **Total Aircraft**
-- 🪖 **Military Manpower**
+- 🪖 **Active Military Personnel**
+- 🪖 **Reserve Personnel**
 - 🚢 **Naval Assets**
 - 🛡 **Defense Budget**
-- 🪖 **Tank Strength**
-- 🌐 **Global Power Rank**
+- 🚜 **Tank Strength**
+- 🌐 **Global Military Power Ranking**
 
-These metrics provide a comprehensive overview of national military capabilities and will be used for comparative analytics in later stages of the project.
+These metrics enable **comparative analysis of national defense capabilities across countries.**
 
 ---
 
-## 📁 Files Included in Milestone 1
+# 📁 Files Included in Milestone 1
 
 | File | Description |
 |-----|-------------|
-| `Milestone_1.ipynb` | Jupyter Notebook containing the complete web scraping and parsing pipeline |
-| `Military_raw_Data.csv` | Structured dataset generated after extracting and compiling military statistics |
+| `Milestone_1.ipynb` | Python script used to scrape military statistics from provided URLs |
+| `Military_raw_Data.csv` | Raw dataset generated after web scraping |
+| `Final_Military_Data.csv` | Final cleaned dataset ready for analysis |
 
 ---
 
-## 🛠 Technologies Used
+# 🛠 Technologies Used
 
-The following technologies and libraries were used for implementing this milestone:
+The following tools and technologies were used to implement this milestone:
 
 - **Python** – Core programming language
-- **Requests** – For sending HTTP requests and retrieving webpage content
-- **BeautifulSoup** – For parsing and extracting data from HTML
-- **Pandas** – For data cleaning, transformation, and structuring
-- **Jupyter Notebook** – For development, experimentation, and documentation
+- **Requests** – For HTTP requests and webpage retrieval
+- **BeautifulSoup** – For parsing HTML content
+- **Pandas** – For data cleaning and dataset structuring
+- **Jupyter Notebook** – For development and documentation
 
 ---
 
-## 📈 Milestone Output
+# 📈 Milestone Outcome
 
-The outcome of Milestone 1 is a structured dataset of global military statistics that will be used in the next phase of the project.
+At the end of **Milestone 1**, two datasets are generated:
 
-This dataset will support the following activities in upcoming milestones:
+1. **Raw Dataset** – `Military_raw_data.csv`
+2. **Final Dataset** – `Final_Military_Data.csv`
 
-- Data cleaning and normalization
-- Feature engineering and derived metrics
-- Analytical exploration of military capabilities
-- Development of an interactive Military Comparison Dashboard
+The cleaned dataset serves as the **primary input for further analytics and dashboard development.**
 
 ---
 
-## 🚀 Next Steps (Milestone 2)
+# 🚀 Next Steps (Milestone 2)
 
-In the next milestone, the collected dataset will be enhanced through:
+The next milestone will focus on **analytical enhancement and dashboard development**, including:
 
-- Advanced Data cleaning and KPI's
-- Feature engineering (derived defense indicators)
-- Preparation of datasets for Power BI dashboard visualization
-- Development of comparative metrics and analytics
+- Feature engineering and derived military indicators
+- Creation of analytical KPIs
+- Comparative analysis across countries
+- Development of interactive **Power BI dashboards**
 
 ---
 
-📌 *This milestone establishes the foundational data layer required for building an intelligent military analytics dashboard capable of providing meaningful global defense insights.*
+📌 *Milestone 1 establishes the foundational data layer required for building an intelligent military analytics dashboard capable of providing meaningful global defense insights.*
