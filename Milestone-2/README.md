@@ -107,17 +107,6 @@ These modules provide both **high-level strategic insights** and **detailed coun
 
 ---
 
-# 📁 Files Included in Milestone 2
-
-| File | Description |
-|-----|-------------|
-| **Milestone_2.ipynb** | Notebook used for dataset preparation and supporting analysis |
-| **generate_kpis.py** | Reference script for KPI feature implementation |
-| **military_final.xlsx** | Final dataset used for Power BI dashboard development |
-| **dashboard_storyboard.pdf** | Dashboard layout sketches and visualization planning |
-
----
-
 # 🛠 Technologies Used
 
 The following tools and technologies were used during this milestone:
