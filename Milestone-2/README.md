@@ -33,6 +33,8 @@ Assets per Capita =
  /
  'military_cleaned'[total_manpower]
 
+ ---
+
  ### 💰 Budget-to-GDP Ratio
 
 Represents the proportion of a country’s economic output allocated to defense spending.
