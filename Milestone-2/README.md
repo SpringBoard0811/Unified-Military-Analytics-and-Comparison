@@ -24,7 +24,8 @@ In this module, new analytical metrics were created directly within **Power BI**
 #### 📊 Assets per Capita
 Measures the relationship between military equipment and available manpower.
 
-```DAX
+**Formula**
+
 Assets per Capita =
 ('military_cleaned'[total_aircraft] +
  'military_cleaned'[tanks] +
