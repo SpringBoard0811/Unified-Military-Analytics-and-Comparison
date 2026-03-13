@@ -26,7 +26,7 @@ Together, these modules establish the **data foundation required for analytics a
 
 This module implements the **automated web scraping pipeline** used to collect global military statistics.
 
-The scraping process uses the file **`links_for_military_data.txt`** as the centralized source of all required URLs. These URLs correspond to different military metrics such as aircraft strength, tank inventory, naval assets, defense budgets, and manpower statistics.
+The scraping process uses the file **`https://www.globalfirepower.com/`** as the centralized source of all required URLs. These URLs correspond to different military metrics such as aircraft strength, tank inventory, naval assets, defense budgets, and manpower statistics.
 
 The scraping system retrieves country-level military data, parses the relevant metric blocks from each webpage, and stores the extracted information in structured format.
 
