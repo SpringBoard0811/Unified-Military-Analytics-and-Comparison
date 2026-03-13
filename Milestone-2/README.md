@@ -57,6 +57,7 @@ RANKX(
     ALL('military_cleaned'),
     'military_cleaned'[global_power_rank]
 )
+
 -
 MIN('military_cleaned'[global_power_rank])
 
