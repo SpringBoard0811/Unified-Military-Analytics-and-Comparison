@@ -1,5 +1,4 @@
 # 📊 Milestone 2 – KPI Engineering & Dashboard Design
-**Timeline:** Weeks 3–4
 
 ---
 
