@@ -43,8 +43,6 @@ Shows the proportion of a country’s **economic output spent on defense**.
 
 # 🧮 KPI Calculations
 
-The following analytical KPIs were generated using **Python (Pandas & NumPy)** to enrich the military dataset with meaningful comparative indicators.
-
 ---
 
 ## 1️⃣ Assets per Capita
@@ -57,15 +55,15 @@ To avoid division-by-zero errors, the calculation uses **`np.where()`**.
 
 ### Implementation
 
-```python
-# Combine major military assets
+```
+Combine major military assets
 df["total_assets"] = (
     df["total_military_aircraft"] +
     df["tanks"] +
     df["total_naval_fleet"]
 )
 
-# Calculate assets per capita while preventing division by zero
+Calculate assets per capita while preventing division by zero
 df["assets_per_capita"] = np.where(
     df["total_military_manpower"] > 0,
     df["total_assets"] / df["total_military_manpower"],
@@ -83,7 +81,7 @@ A higher ratio indicates that a **larger portion of national economic resources 
 
 ### Implementation
 
-```python
+```
 df["budget_to_gdp_ratio"] = np.where(
     df["purchasing_power_parity_usd"] > 0,
     df["defense_budget_usd"] / df["purchasing_power_parity_usd"],
@@ -109,7 +107,7 @@ df["power_index_rank_gap"] = df["power_index_rank"] - top_rank
 
 ---
 
-## 📊 Purpose of These KPIs
+### 📊 Purpose of These KPIs
 
 These indicators enable deeper military analytics by helping to analyze:
 
