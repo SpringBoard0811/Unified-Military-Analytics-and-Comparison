@@ -59,16 +59,6 @@ Create a detailed dashboard for **country-level military analysis**.
 
 ---
 
-## 📦 Deliverables
-
-| Item | Description |
-|-----|-------------|
-| Dashboard Prototype | Sample dashboard application |
-| Quick Stats Dashboard | Fully functional overview dashboard |
-| Nation Overview Dashboard | Complete country profile dashboard |
-
----
-
 ## ✔ Evaluation Criteria
 
 - Country and region filters function correctly  
