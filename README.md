@@ -66,31 +66,30 @@ Example metrics include:
 
 ---
 
-# 📂 Repository Structure
-Unified-Military-Analytics-Dashboard/
+## 📂 Repository Structure
+Unified-Military-Analytics-Dashboard
 │
-├── Milestone-1/
-│   ├── scrape_military_metrics.py
-│   ├── clean_data.ipynb
-│   └── README.md
+├── Milestone-1
+│ ├── scrape_military_metrics.py
+│ ├── clean_data.ipynb
+│ └── README.md
 │
-├── Milestone-2/
-│   ├── generate_kpis.py
-│   ├── kpi_engineering.ipynb
-│   └── README.md
+├── Milestone-2
+│ ├── generate_kpis.py
+│ ├── kpi_engineering.ipynb
+│ └── README.md
 │
-├── Milestone-3/
-│   ├── dashboard_development.ipynb
-│   └── README.md
+├── Milestone-3
+│ ├── dashboard_development.ipynb
+│ └── README.md
 │
-├── Milestone-4/
-│   ├── testing_and_validation.ipynb
-│   └── README.md
+├── Milestone-4
+│ ├── testing_and_validation.ipynb
+│ └── README.md
 │
 └── README.md
 
-Each milestone folder contains the notebooks, scripts, and documentation related to that development stage.
-
+Each milestone folder contains the scripts, notebooks, and documentation related to that development stage.
 ---
 
 # 📊 Dashboard Modules
