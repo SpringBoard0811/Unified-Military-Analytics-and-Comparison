@@ -1,56 +1,133 @@
-# Milestone 2 – KPI Engineering & Dashboard Planning
-Project: Unified Military Analytics and Comparison Dashboard
+# 📊 Milestone 2 – KPI Engineering & Dashboard Planning
+## Unified Military Analytics and Comparison Dashboard
 
-## Overview
-Milestone 2 focuses on transforming the raw military dataset into analytical features (KPIs) and preparing the data for visualization in Tableau. This stage also includes designing the dashboard structure and prototyping the interaction flow for the final analytics platform.
+---
 
-## KPI Engineering
-New analytical metrics were created from the raw military dataset:
+## 📌 Project Overview
 
-- **Power Index Rank Gap** – Difference between a country's military rank and the top-ranked country.
-- **Assets per Capita** – Total military assets relative to total manpower.
-- **Budget-to-GDP Ratio** – Defense budget as a proportion of national GDP.
+The **Unified Military Analytics and Comparison Dashboard** aims to provide an analytical platform for evaluating and comparing global military capabilities.
 
-These KPIs enable comparative analysis of military strength, resource efficiency, and economic investment in defense.
+**Milestone 2** focuses on transforming the cleaned military dataset into **analytical Key Performance Indicators (KPIs)** and preparing the data for interactive visualization within **Power BI dashboards**.
 
-## Data Enrichment
-To support regional and alliance-based analysis, the dataset was enriched with metadata including:
+In this stage, KPI metrics were generated directly within **Power BI using DAX (Data Analysis Expressions)** to enable dynamic analysis and interactive filtering. This milestone also includes the **initial design and planning of the dashboard structure**, which will be expanded in later development phases.
 
-- Continent  
-- Geographic region  
-- Military alliance flags (e.g., NATO membership)
+This milestone ensures that the dataset evolves from raw numerical statistics into **actionable analytical insights**.
 
-## Data Preparation
-The dataset was formatted for Tableau visualization in two formats:
+---
 
-- **Wide Format** – Each metric stored as a column for quick KPI comparison.  
-- **Long Format** – Restructured for flexible dashboard visualizations and filtering.
+# ⚙️ KPI Engineering using DAX
 
-Final dataset exported as:
+In this module, new analytical metrics were created directly within **Power BI** using **DAX formulas**. These KPIs enable deeper comparative analysis of military strength, resource efficiency, and national defense investment.
 
-`military_final.xlsx`
+### Key KPIs Implemented
 
-## Dashboard Planning
-Initial dashboard layouts were designed to guide the final visualization system. The following dashboard modules were planned:
+#### 📊 Assets per Capita
 
-- **Quick Stats** – Global military overview and KPIs  
-- **Nation Overview** – Detailed military profile for each country  
-- **Compare Powers** – Multi-country comparison dashboard  
-- **Coalition Builder** – Alliance and coalition strength simulation  
+Measures the relationship between military equipment and available manpower.
 
-A prototype dashboard was created using sample data to validate interactions and navigation flow.
+**Formula**
 
-## Files in Milestone 2
-- `Milestone_2.ipynb` – Notebook for KPI computation and dataset preparation  
-- `generate_kpis.py` – Script to generate KPI features  
-- `military_final.xlsx` – Final dataset prepared for Tableau  
-- `dashboard_storyboard.pdf` – Layout sketches and dashboard design  
+Assets per Capita =
+('clean_military_data'[total_aircraft] +
+ 'clean_military_data'[tanks] +
+ 'clean_military_data'[naval_assets])
+ /
+ 'clean_military_data'[total_manpower]
 
-## Technologies Used
-- Python  
-- Pandas  
-- Jupyter Notebook  
-- Tableau  
+---
 
-## Output
-A KPI-enriched military dataset and an initial dashboard prototype ready for visualization and interactive analytics.
+### 💰 Budget-to-GDP Ratio
+
+Represents the proportion of a country’s economic output allocated to defense spending.
+
+**Formula**
+
+Budget-to-GDP Ratio =
+'clean_military_data'[defense_budget] / 'clean_military_data'[gdp]
+
+---
+
+### 🌐 Power Index Rank Gap
+
+Measures the difference between a country's military power ranking and the top-ranked nation.
+
+**Formula**
+
+Power Index Rank Gap =
+RANKX(
+    ALL('clean_military_data'),
+    'clean_military_data'[p_rank]
+)
+
+MIN('military_cleaned'[p_rank])
+
+These KPIs allow the dashboard to highlight **military efficiency, strategic investment, and relative defense strength among countries.**
+
+---
+
+# 🌍 Data Enrichment
+
+To enable more advanced comparative analytics, additional metadata fields were incorporated into the dataset.
+
+### Added Metadata Fields
+
+- **Continent**
+- **Geographic Region**
+- **Military Alliance Indicators** (e.g., NATO membership)
+
+These attributes allow the dashboard to support:
+
+- Regional analysis
+- Alliance comparisons
+- Global military grouping insights
+
+---
+
+# 📊 Dashboard Planning
+
+The dashboard architecture was designed to provide multiple analytical perspectives on global military capabilities.
+
+The following dashboard modules were conceptualized to guide the final visualization system.
+
+## Planned Dashboard Modules
+
+### Data/Sample_1.png
+
+### ⚡ Quick Stats
+Global overview of military KPIs and aggregated statistics.
+
+### 🌍 Nation Overview
+Detailed military profile for individual countries.
+
+### ⚖️ Compare Powers
+Multi-country comparison of defense metrics.
+
+### 🤝 Coalition Builder
+Simulation and analysis of combined military alliances.
+
+These modules provide both **high-level strategic insights** and **detailed country-level analysis.**
+
+---
+
+# 🛠 Technologies Used
+
+The following tools and technologies were used during this milestone:
+
+- **Python** – Data processing and preparation
+- **Pandas** – Dataset manipulation and transformation
+- **Jupyter Notebook** – Development and documentation
+- **Power BI** – Interactive dashboard creation
+- **DAX (Data Analysis Expressions)** – KPI calculations and analytical measures
+
+---
+
+# 📈 Milestone Outcome
+
+At the end of **Milestone 2**, the project delivers:
+
+- A **KPI-enriched military dataset**
+- **Dynamic KPI calculations** implemented using DAX
+- A **structured Power BI dashboard prototype**
+- Defined dashboard modules for advanced military analytics
+
+This milestone establishes the **analytical layer required for building a comprehensive global military comparison platform.**
