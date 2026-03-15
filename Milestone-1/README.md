@@ -76,7 +76,7 @@ The milestone will be considered successful if the following conditions are met:
 
 # 🚀 Outcome
 Raw Military Data
-↓
+->
 Cleaned & Structured Dataset
 
 The resulting dataset forms the **foundation for the next milestone**, where additional **analytical KPIs will be engineered and integrated into interactive dashboards.**
