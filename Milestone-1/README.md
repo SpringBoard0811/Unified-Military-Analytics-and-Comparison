@@ -10,7 +10,7 @@ The output of this stage is a **processed dataset containing military indicators
 # 🛰️ Data Collection
 
 Military capability statistics are collected from the URLs listed in the following file:
-links_for_military_data.txt
+`links_for_military_data.txt`
 
 Each webpage contains country-level defense metrics such as military manpower, equipment inventory, and economic indicators related to defense capability.
 
