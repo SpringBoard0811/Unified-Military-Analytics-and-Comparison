@@ -1,0 +1,146 @@
+country,rank,total_manpower,tanks,total_aircraft,fighter_aircraft,naval_assets_total,defense_budget,gdp,assets_per_capita,budget_to_gdp_ratio,region,continent,pwr_index,flag_url
+United States,1,2132530,4666,13032,1791,200,8.32E+11,2.57E+13,0.000118952,0.032384328,North America,North America,0.0741,https://flagcdn.com/w320/us.png
+Russia,2,3570000,5630,4237,861,286,2.13E+11,6.09E+12,0.00014714,0.034921707,Eastern Europe,Europe/Asia,0.0791,https://flagcdn.com/w320/ru.png
+China,3,3170000,5870,3529,1443,403,3.03E+11,3.36E+13,1.28E-05,0.009018394,Asia,Asia,0.0919,https://flagcdn.com/w320/cn.png
+India,4,4958000,3913,2183,476,218,1.09E+11,1.42E+13,9.53E-06,0.007652345,Asia,Asia,0.1346,https://flagcdn.com/w320/in.png
+South Korea,5,3670000,1831,1540,242,169,44800000000,2.61E+12,0.00013594,0.017184503,Asia-Pacific,Asia,0.1642,https://flagcdn.com/w320/kr.png
+France,6,457444,427,974,223,70,67232395000,3.73E+12,4.89E-05,0.018015111,Europe,Europe,0.1798,https://flagcdn.com/w320/fr.png
+Japan,7,332500,734,1429,217,100,58000000000,5.72E+12,4.27E-05,0.010148731,Asia-Pacific,Asia,0.1876,https://flagcdn.com/w320/jp.png
+United Kingdom,8,173270,288,625,103,59,88526529585,3.64E+12,3.09E-05,0.02434723,Europe,Europe,0.1881,https://flagcdn.com/w320/gb.png
+Turkiye,9,1011000,2284,1101,201,92,51400000000,3.02E+12,8.09E-05,0.017031146,Middle East,Europe/Asia,0.1975,https://flagcdn.com/w320/tr.png
+Italy,10,288800,203,714,88,52,37325165000,3.13E+12,3.53E-05,0.011913554,Europe,Europe,0.2211,https://flagcdn.com/w320/it.png
+Brazil,11,1916000,294,495,44,43,26400000000,4.17E+12,7.41E-06,0.006338535,South America,South America,0.2374,https://flagcdn.com/w320/br.png
+Germany,12,1044324,296,569,127,89,1.27E+11,5.25E+12,2.47E-05,0.024280558,Europe,Europe,0.2463,https://flagcdn.com/w320/de.png
+Indonesia,13,1055500,331,460,41,261,11155297716,4.10E+12,7.63E-06,0.002719478,Southeast Asia,Asia,0.2582,https://flagcdn.com/w320/id.png
+Pakistan,14,1710000,2677,1397,331,105,9102115350,1.39E+12,3.85E-05,0.006548284,Asia,Asia,0.2626,https://flagcdn.com/w320/pk.png
+Israel,15,669500,1300,597,239,79,34600000000,4.72E+11,0.000500367,0.073277606,Middle East,Asia,0.2707,https://flagcdn.com/w320/il.png
+Iran,16,1180000,2675,551,188,57,9230000000,1.49E+12,6.63E-05,0.006211306,Middle East,Asia,0.3199,https://flagcdn.com/w320/ir.png
+Australia,17,92180,46,348,24,34,57350000000,1.64E+12,3.81E-05,0.035076453,Asia-Pacific,Australia,0.3208,https://flagcdn.com/w320/au.png
+Spain,18,224305,298,440,136,132,39000676350,2.36E+12,4.00E-05,0.016518711,Europe,Europe,0.3247,https://flagcdn.com/w320/es.png
+Egypt,19,1217500,3620,1088,242,108,5193500000,1.96E+12,0.000105588,0.002652451,Africa,Africa,0.3651,https://flagcdn.com/w320/eg.png
+Ukraine,20,5000000,1121,347,88,138,45000000000,5.78E+11,8.83E-05,0.07791088,Eastern Europe,Europe,0.3691,https://flagcdn.com/w320/ua.png
+Poland,21,650000,798,457,58,37,55865141600,1.65E+12,6.81E-05,0.033878194,Eastern Europe,Europe,0.3891,https://flagcdn.com/w320/pl.png
+Taiwan,22,1942000,1090,720,258,82,31180000000,1.74E+12,0.000154203,0.017888698,Asia-Pacific,Asia,0.3927,https://flagcdn.com/w320/tw.png
+Vietnam,23,5700000,1999,265,61,67,10200000000,1.46E+12,4.24E-05,0.007005495,Southeast Asia,Asia,0.4066,https://flagcdn.com/w320/vn.png
+Thailand,24,585850,744,496,73,272,6006660000,1.56E+12,4.16E-05,0.003855366,Southeast Asia,Asia,0.4458,https://flagcdn.com/w320/th.png
+Saudi Arabia,25,397000,1085,917,283,28,63988055520,2.21E+12,0.000106825,0.028914621,Middle East,Asia,0.4473,https://flagcdn.com/w320/sa.png
+Sweden,26,164000,110,172,73,135,15900000000,6.69E+11,9.84E-05,0.023780039,Scandinavia,Europe,0.4834,https://flagcdn.com/w320/se.png
+Algeria,27,430000,1485,620,111,100,25000000000,7.23E+11,9.77E-05,0.034582356,Africa,Africa,0.4849,https://flagcdn.com/w320/dz.png
+Canada,28,92000,74,354,66,33,45824959620,2.34E+12,2.76E-05,0.019574951,North America,North America,0.5269,https://flagcdn.com/w320/ca.png
+Singapore,29,315500,170,235,100,77,18000000000,8.00E+11,0.000123006,0.022491453,Southeast Asia,Asia,0.5272,https://flagcdn.com/w320/sg.png
+Greece,30,419050,1344,560,178,71,8242150000,1.92E+11,0.000401691,0.042882079,Balkans,Europe,0.5484,https://flagcdn.com/w320/gr.png
+North Korea,31,1980000,4895,837,341,264,4750000000,15416000000,0.000633323,0.308121432,Asia,Asia,0.5933,https://flagcdn.com/w320/kp.png
+Argentina,32,140370,362,241,23,24,993919790,1.21E+12,3.03E-05,0.00081939,South America,South America,0.5983,https://flagcdn.com/w320/ar.png
+Nigeria,33,280000,330,159,14,135,3900000000,1.32E+12,4.97E-06,0.002959029,Africa,Africa,0.6097,https://flagcdn.com/w320/ng.png
+Netherlands,34,57755,18,130,0,88,31791150000,1.28E+12,2.95E-05,0.024914694,Europe,Europe,0.6142,https://flagcdn.com/w320/nl.png
+Myanmar,35,302000,1040,331,70,160,2815031361,2.88E+11,5.02E-05,0.009789404,Southeast Asia,Asia,0.6265,https://flagcdn.com/w320/mm.png
+Mexico,36,605653,0,424,2,146,9100000000,2.88E+12,9.28E-06,0.003156434,Latin America,North America,0.6401,https://flagcdn.com/w320/mx.png
+Bangladesh,37,7004000,320,212,41,81,3340000000,1.47E+12,7.42E-06,0.002267481,Asia,Asia,0.6517,https://flagcdn.com/w320/bd.png
+Portugal,38,71800,34,128,28,80,6760000000,5.57E+11,4.55E-05,0.012137709,Europe,Europe,0.6659,https://flagcdn.com/w320/pt.png
+Norway,39,94040,36,109,0,41,11189483200,5.08E+11,8.44E-05,0.022040425,Scandinavia,Europe,0.6679,https://flagcdn.com/w320/no.png
+South Africa,40,148081,248,181,2,53,2877000000,8.70E+11,1.73E-05,0.003305301,Africa,Africa,0.6843,https://flagcdn.com/w320/za.png
+Philippines,41,1695000,18,204,0,65,6571641011,1.20E+12,5.64E-06,0.005467255,Southeast Asia,Asia,0.6993,https://flagcdn.com/w320/ph.png
+Malaysia,42,264600,48,132,25,84,5100000000,1.21E+12,1.63E-05,0.004207921,Southeast Asia,Asia,0.7379,https://flagcdn.com/w320/my.png
+Colombia,43,1577000,0,430,16,173,15800000000,9.78E+11,2.48E-05,0.016155023,South America,South America,0.7551,https://flagcdn.com/w320/co.png
+Iraq,44,293000,1188,360,26,56,8000000000,5.86E+11,9.07E-05,0.01365451,Middle East,Asia,0.8115,https://flagcdn.com/w320/iq.png
+Denmark,45,84000,44,122,26,24,14250000000,4.41E+11,7.23E-05,0.032345344,Scandinavia,Europe,0.8198,https://flagcdn.com/w320/dk.png
+Switzerland,46,152178,134,141,40,0,8372658426,7.41E+11,7.05E-05,0.011298601,Europe,Europe,0.8396,https://flagcdn.com/w320/ch.png
+Ethiopia,47,641000,338,104,25,0,3720968976,3.81E+11,7.77E-06,0.009769015,Africa,Africa,0.8525,https://flagcdn.com/w320/et.png
+Finland,48,947800,200,162,53,26,8890000000,3.14E+11,0.000168196,0.028349028,Scandinavia,Europe,0.8673,https://flagcdn.com/w320/fi.png
+Chile,49,170000,386,274,45,52,6800000000,5.97E+11,7.95E-05,0.011398762,South America,South America,0.8704,https://flagcdn.com/w320/cl.png
+Peru,50,566000,355,252,15,34,2552000000,5.36E+11,4.10E-05,0.004761985,South America,South America,0.8827,https://flagcdn.com/w320/pe.png
+Venezuela,51,337000,282,224,30,30,6060000000,1.11E+11,3.43E-05,0.054622644,South America,South America,0.9106,https://flagcdn.com/w320/ve.png
+Romania,52,160000,451,148,29,17,10230630000,7.74E+11,6.53E-05,0.01321145,Eastern Europe,Europe,0.9558,https://flagcdn.com/w320/ro.png
+Uzbekistan,53,140000,470,159,26,0,6210000000,3.80E+11,3.31E-05,0.016342578,Asia,Asia,0.9908,https://flagcdn.com/w320/uz.png
+United Arab Emirates,54,207000,354,581,99,47,23480000000,7.46E+11,0.000168767,0.031474784,Gulf Powers,Asia,1.0188,https://flagcdn.com/w320/ae.png
+Czechia,55,35234,20,103,12,0,9174000000,5.22E+11,2.41E-05,0.017577137,Eastern Europe,Europe,1.0313,https://flagcdn.com/w320/cz.png
+Morocco,56,700000,1346,271,84,91,16100000000,3.51E+11,9.52E-05,0.045922064,Africa,Africa,1.0368,https://flagcdn.com/w320/ma.png
+Hungary,57,76600,220,80,12,0,5887250000,3.89E+11,6.48E-05,0.01512627,Eastern Europe,Europe,1.0429,https://flagcdn.com/w320/hu.png
+Kazakhstan,58,300000,353,168,37,25,5836386000,7.39E+11,5.99E-05,0.007893568,Asia,Asia,1.0433,https://flagcdn.com/w320/kz.png
+Angola,59,117000,319,278,67,32,31200000000,2.78E+11,8.45E-05,0.112133813,Africa,Africa,1.1045,https://flagcdn.com/w320/ao.png
+Azerbaijan,60,449000,1354,159,12,25,5100000000,2.25E+11,0.000294714,0.022646738,Balkans,Asia,1.1991,https://flagcdn.com/w320/az.png
+Belgium,61,32990,0,104,44,9,14900000000,7.49E+11,2.30E-05,0.019887111,Europe,Europe,1.2201,https://flagcdn.com/w320/be.png
+Bulgaria,62,39950,334,71,11,26,2485350000,2.20E+11,0.000135201,0.011315304,Eastern Europe,Europe,1.2522,https://flagcdn.com/w320/bg.png
+Serbia,63,624500,242,115,11,0,2770000000,1.77E+11,0.000109523,0.015641499,Balkans,Europe,1.2938,https://flagcdn.com/w320/rs.png
+Democratic Republic of the Congo,64,207380,212,56,0,16,960000000,1.64E+11,7.24E-06,0.005840588,Africa,Africa,1.3051,https://flagcdn.com/w320/cd.png
+Cuba,65,1235000,194,20,11,12,3301500000,81165000000,3.82E-05,0.0406764,Latin America,North America,1.3345,https://flagcdn.com/w320/cu.png
+Sudan,66,517500,1055,183,37,10,394700000,94420000000,4.67E-05,0.004180258,Africa,Africa,1.3563,https://flagcdn.com/w320/sd.png
+Austria,67,150600,56,90,15,0,6103900800,5.81E+11,3.62E-05,0.010503485,Europe,Europe,1.3759,https://flagcdn.com/w320/at.png
+Sri Lanka,68,436000,87,90,6,264,1500000000,3.01E+11,4.18E-05,0.004976659,Asia,Asia,1.3822,https://flagcdn.com/w320/lk.png
+Slovakia,69,20982,45,48,7,0,2900000000,2.19E+11,3.28E-05,0.013256416,Eastern Europe,Europe,1.3911,https://flagcdn.com/w320/sk.png
+Belarus,70,483400,577,194,43,0,1034784000,2.65E+11,0.000153105,0.003901606,Eastern Europe,Europe,1.4072,https://flagcdn.com/w320/by.png
+Qatar,71,36050,62,263,115,111,11950000000,3.17E+11,0.000683362,0.037689552,Gulf Powers,Asia,1.4096,https://flagcdn.com/w320/qa.png
+Ecuador,72,160750,202,99,0,15,2963400000,2.53E+11,3.75E-05,0.01172565,South America,South America,1.4479,https://flagcdn.com/w320/ec.png
+Croatia,73,36425,55,67,12,12,2744000000,1.65E+11,6.59E-05,0.01664796,Balkans,Europe,1.5432,https://flagcdn.com/w320/hr.png
+Jordan,74,249500,1508,279,44,27,2668500000,1.10E+11,0.00052368,0.024262179,Middle East,Asia,1.5581,https://flagcdn.com/w320/jo.png
+Bahrain,75,129900,150,137,28,54,997015509,93937000000,0.000403016,0.010613661,Gulf Powers,Asia,1.6731,https://flagcdn.com/w320/bh.png
+Kuwait,76,109500,367,133,47,106,7987000000,2.26E+11,0.000351081,0.035348998,Gulf Powers,Asia,1.7161,https://flagcdn.com/w320/kw.png
+Albania,77,8000,0,20,0,33,720037190,51360000000,3.48E-05,0.014019416,Balkans,Europe,1.7258,https://flagcdn.com/w320/al.png
+Turkmenistan,78,40000,654,91,22,16,1463000000,1.35E+11,0.00027486,0.010872877,Asia,Asia,1.7459,https://flagcdn.com/w320/tm.png
+Tunisia,79,101800,145,155,10,32,2172751250,1.56E+11,5.51E-05,0.013920219,Africa,Africa,1.7823,https://flagcdn.com/w320/tn.png
+Libya,80,132000,55,83,10,3,1474800000,90609000000,3.68E-05,0.016276529,Africa,Africa,1.7872,https://flagcdn.com/w320/ly.png
+Paraguay,81,198950,10,49,0,0,416800000,1.13E+11,1.67E-05,0.003691141,South America,South America,1.7974,https://flagcdn.com/w320/py.png
+Bolivia,82,80000,54,67,0,0,467670000,1.22E+11,2.23E-05,0.003827087,South America,South America,1.8301,https://flagcdn.com/w320/bo.png
+Cambodia,83,134300,520,24,0,20,750000000,1.24E+11,6.89E-05,0.006064232,Southeast Asia,Asia,1.8434,https://flagcdn.com/w320/kh.png
+Kenya,84,75000,188,154,17,18,1651803025,3.29E+11,1.67E-05,0.0050263,Africa,Africa,1.8588,https://flagcdn.com/w320/ke.png
+Chad,85,42750,90,40,0,0,706800000,52895000000,1.89E-05,0.013362322,Africa,Africa,1.8594,https://flagcdn.com/w320/td.png
+Oman,86,110000,264,128,29,13,8364000000,1.94E+11,0.00027314,0.043204488,Gulf Powers,Asia,1.8823,https://flagcdn.com/w320/om.png
+Syria,87,150000,168,104,52,8,145925000,98858000000,1.83E-05,0.001476107,Middle East,Asia,1.8861,https://flagcdn.com/w320/sy.png
+Lithuania,88,141150,0,9,0,9,5651760000,1.36E+11,1.05E-05,0.041487811,Eastern Europe,Europe,1.8949,https://flagcdn.com/w320/lt.png
+Tanzania,89,31500,200,38,11,10,1476113361,2.47E+11,2.04E-05,0.005983289,Africa,Africa,1.9111,https://flagcdn.com/w320/tz.png
+New Zealand,90,13650,0,47,0,6,2455949332,2.57E+11,2.39E-05,0.009551875,Asia-Pacific,Australia,1.9258,https://flagcdn.com/w320/nz.png
+Slovenia,91,38000,54,40,0,3,1782000000,1.03E+11,9.63E-05,0.017281173,Eastern Europe,Europe,1.9404,https://flagcdn.com/w320/si.png
+Mozambique,92,14200,60,23,8,36,480000000,51786000000,8.11E-06,0.009268914,Africa,Africa,1.9769,https://flagcdn.com/w320/mz.png
+Mongolia,93,315000,420,8,0,0,1590000000,59221000000,0.000228809,0.026848584,Asia,Asia,1.9987,https://flagcdn.com/w320/mn.png
+Ireland,94,9277,0,23,0,8,1754400500,6.21E+11,1.29E-05,0.002827198,Europe,Europe,2.0661,https://flagcdn.com/w320/ie.png
+Georgia,95,242500,132,61,0,35,680000000,91849000000,8.31E-05,0.007403456,Balkans,Asia,2.0779,https://flagcdn.com/w320/ge.png
+Guatemala,96,231114,0,35,0,20,616000000,2.33E+11,7.35E-06,0.002647492,Central America,North America,2.1277,https://flagcdn.com/w320/gt.png
+Uruguay,97,29000,62,43,0,7,1903440000,1.09E+11,7.11E-05,0.017542902,South America,South America,2.1537,https://flagcdn.com/w320/uy.png
+Yemen,98,53350,0,160,68,10,405187500,18719000000,1.39E-05,0.021645788,Middle East,Asia,2.1617,https://flagcdn.com/w320/ye.png
+Cameroon,99,47000,0,35,0,19,835694942,1.43E+11,5.13E-06,0.005833251,Africa,Africa,2.1689,https://flagcdn.com/w320/cm.png
+Tajikistan,100,770000,38,25,0,0,450460000,50370000000,1.32E-05,0.008943022,Asia,Asia,2.1749,https://flagcdn.com/w320/tj.png
+Armenia,101,280000,109,69,4,0,1480000000,60909000000,0.000106779,0.024298544,Balkans,Asia,2.2016,https://flagcdn.com/w320/am.png
+Latvia,102,68370,0,3,0,17,42000000,72516000000,2.47E-05,0.000579183,Eastern Europe,Europe,2.2316,https://flagcdn.com/w320/lv.png
+Honduras,103,75225,22,45,6,93,612300000,71297000000,3.82E-05,0.008588019,Central America,North America,2.2575,https://flagcdn.com/w320/hn.png
+Mali,104,44800,0,44,9,0,1110000000,71253000000,6.45E-06,0.015578291,Africa,Africa,2.2598,https://flagcdn.com/w320/ml.png
+Zimbabwe,105,50800,60,80,9,0,1976800000,57391000000,2.15E-05,0.034444425,Africa,Africa,2.2801,https://flagcdn.com/w320/zw.png
+Estonia,106,247700,0,2,0,8,2375000000,57001000000,1.71E-05,0.041665936,Eastern Europe,Europe,2.3201,https://flagcdn.com/w320/ee.png
+Uganda,107,55000,259,51,6,0,1510000000,1.44E+11,1.85E-05,0.010476144,Africa,Africa,2.3252,https://flagcdn.com/w320/ug.png
+Ivory Coast,108,27500,0,22,0,7,18200000,2.15E+11,2.36E-06,8.46E-05,Africa,Africa,2.3884,https://flagcdn.com/w320/ci.png
+Kyrgyzstan,109,78000,215,7,0,0,654000000,50907000000,7.05E-05,0.012846956,Asia,Asia,2.3969,https://flagcdn.com/w320/kg.png
+Luxembourg,110,1200,0,1,0,0,1530685000,86871000000,6.48E-06,0.017620207,Europe,Europe,2.4429,https://flagcdn.com/w320/lu.png
+Zambia,111,16350,75,78,0,0,385321000,79207000000,2.10E-05,0.004864734,Africa,Africa,2.4461,https://flagcdn.com/w320/zm.png
+Ghana,112,15500,0,18,0,20,954423756,2.43E+11,2.55E-06,0.003925667,Africa,Africa,2.4566,https://flagcdn.com/w320/gh.png
+South Sudan,113,185000,122,19,0,0,30700000,6752000000,2.22E-05,0.004546801,Africa,Africa,2.4645,https://flagcdn.com/w320/ss.png
+North Macedonia,114,73510,0,20,0,0,421527100,43844000000,2.11E-05,0.009614248,Balkans,Europe,2.4956,https://flagcdn.com/w320/mk.png
+Dominican Republic,115,308000,6,80,0,14,903000000,2.77E+11,2.01E-05,0.003261294,Central America,North America,2.5853,https://flagcdn.com/w320/do.png
+Nicaragua,116,50500,186,17,0,23,1311600000,52989000000,6.91E-05,0.024752307,Central America,North America,2.5894,https://flagcdn.com/w320/ni.png
+Republic of the Congo,117,12500,61,14,2,0,933360000,39147000000,3.32E-05,0.02384244,Africa,Africa,2.6259,https://flagcdn.com/w320/cg.png
+Lebanon,118,160000,334,80,0,42,800000000,65415000000,0.000217958,0.012229611,Middle East,Asia,2.6521,https://flagcdn.com/w320/lb.png
+Eritrea,119,1030000,148,20,1,18,219000000,2534000000,8.38E-05,0.086424625,Africa,Africa,2.6841,https://flagcdn.com/w320/er.png
+Niger,120,30000,0,26,0,0,488400000,47921000000,3.29E-06,0.010191774,Africa,Africa,2.6867,https://flagcdn.com/w320/ne.png
+Afghanistan,121,165000,0,5,0,0,145000000,82238000000,3.20E-07,0.001763175,Asia,Asia,2.7342,https://flagcdn.com/w320/af.png
+Namibia,122,22567,7,36,11,17,450498000,31154000000,9.73E-05,0.014460358,Africa,Africa,2.7414,https://flagcdn.com/w320/na.png
+Mauritania,123,102540,51,23,0,6,270625000,33069000000,4.74E-05,0.008183646,Africa,Africa,2.7919,https://flagcdn.com/w320/mr.png
+Nepal,124,195500,0,17,0,0,431355326,1.50E+11,1.11E-06,0.002882563,Asia,Asia,2.8037,https://flagcdn.com/w320/np.png
+Laos,125,250000,160,29,0,0,355600000,66905000000,5.40E-05,0.005314999,Southeast Asia,Asia,2.8672,https://flagcdn.com/w320/la.png
+Senegal,126,17000,0,39,0,4,777800000,83183000000,6.00E-06,0.009350468,Africa,Africa,2.8925,https://flagcdn.com/w320/sn.png
+Burkina Faso,127,12000,0,26,0,0,4590000000,60001000000,3.05E-06,0.076498725,Africa,Africa,2.9213,https://flagcdn.com/w320/bf.png
+Montenegro,128,7850,0,10,0,14,204000000,17375000000,0.000166708,0.011741007,Balkans,Europe,2.9782,https://flagcdn.com/w320/me.png
+El Salvador,129,40000,0,51,0,8,1037200000,73961000000,1.85E-05,0.014023607,Central America,North America,2.9973,https://flagcdn.com/w320/sv.png
+Botswana,130,12000,45,45,10,0,581000000,45553000000,8.74E-05,0.012754374,Africa,Africa,2.9993,https://flagcdn.com/w320/bw.png
+Madagascar,131,21600,12,6,0,5,147630000,52968000000,2.06E-06,0.002787155,Africa,Africa,3.0381,https://flagcdn.com/w320/mg.png
+Gabon,132,7500,0,25,6,4,340950000,48045000000,3.11E-05,0.007096472,Africa,Africa,3.0432,https://flagcdn.com/w320/ga.png
+Bosnia and Herzegovina,133,26000,45,15,0,0,289920000,64641000000,2.55E-05,0.004485079,Balkans,Europe,3.1291,https://flagcdn.com/w320/ba.png
+Iceland,134,0,0,0,0,0,500000000,26561000000,0,0.018824592,Europe,Europe,3.4013,https://flagcdn.com/w320/is.png
+Panama,135,96300,0,38,0,14,1069750000,1.64E+11,2.58E-05,0.006503672,Central America,North America,3.5011,https://flagcdn.com/w320/pa.png
+Moldova,136,10500,0,3,0,0,114114000,39342000000,1.39E-06,0.002900564,Eastern Europe,Europe,3.6225,https://flagcdn.com/w320/md.png
+Somalia,137,32000,0,6,0,19,870000000,26770000000,8.35E-06,0.032499066,Africa,Africa,3.7393,https://flagcdn.com/w320/so.png
+Benin,138,4750,0,7,0,2,137690000,56424000000,1.61E-06,0.002440274,Africa,Africa,3.8963,https://flagcdn.com/w320/bj.png
+Kosovo,139,9500,0,0,0,0,1177450000,25019000000,0,0.047062233,Balkans,Europe,3.8041,https://flagcdn.com/w320/xk.png
+Sierra Leone,140,13000,0,1,0,10,450000000,26728000000,5.48E-06,0.016836277,Africa,Africa,3.9201,https://flagcdn.com/w320/sl.png
+Liberia,141,7600,0,0,0,6,20700000,9308000000,2.51E-06,0.002223893,Africa,Africa,3.9275,https://flagcdn.com/w320/lr.png
+Suriname,142,2700,0,3,0,17,58440000,12316000000,0.000140561,0.004745047,South America,South America,4.0538,https://flagcdn.com/w320/sr.png
+Central African Republic,143,31000,0,8,0,0,300000000,5926000000,3.63E-06,0.050624367,Africa,Africa,4.2381,https://flagcdn.com/w320/cf.png
+Beliz,144,2850,0,3,0,15,34400000,5538000000,0.000113924,0.006211629,Central America,North America,4.3602,https://flagcdn.com/w320/bz.png
+Bhutan,145,66000,0,2,0,0,26600000,11517000000,9.83E-06,0.002309629,Asia,Asia,5.7991,https://flagcdn.com/w320/bt.png
