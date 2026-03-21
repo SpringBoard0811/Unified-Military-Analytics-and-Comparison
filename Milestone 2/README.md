@@ -157,7 +157,3 @@ military_final.csv
 * Prototype for interactive military analytics dashboard
 
 ---
-
-## 👩‍💻 Author
-
-Kavya Vudarla
