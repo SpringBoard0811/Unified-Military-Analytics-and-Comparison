@@ -1,3 +1,4 @@
+# 🌍 Global Military Power Dashboard
 # 📊 Milestone 2 – Power BI Dashboard (Quick Stats)
 
 This milestone focuses on building the **first Power BI dashboard** for the project.
