@@ -11,7 +11,7 @@ UNIFIED-MILITARY-ANALYTICS/
 ├── Milestone_1/
 │   ├── Milestone_1_Data_Collection_and_Preparation/
 │   ├── Milestone_1_Output/
-│   └── readme.md
+│   └── README.md
 │
 ├── Milestone_2/
 │   ├── Milestone_2_Quick_Stats_Dashboard.pbix
@@ -24,6 +24,7 @@ UNIFIED-MILITARY-ANALYTICS/
 │   └── README.md
 │
 └── LICENSE
+└── README.md
 ```
 
 ---
