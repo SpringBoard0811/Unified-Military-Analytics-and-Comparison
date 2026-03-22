@@ -23,7 +23,7 @@ UNIFIED-MILITARY-ANALYTICS/
 │   ├── Milestone_3_Output.pdf
 │   └── README.md
 │
-└── LICENSE
+├── LICENSE
 └── README.md
 ```
 
