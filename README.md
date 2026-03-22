@@ -42,7 +42,7 @@ UNIFIED-MILITARY-ANALYTICS/
 ## 🛠️ Tech Stack
 
 - **Power BI Desktop** – Interactive dashboards
-- **CSV / Excel** – Data storage and preprocessing
+- **Python** – Data storage and preprocessing
 - **145 Countries** covered across all metrics
 
 ---
