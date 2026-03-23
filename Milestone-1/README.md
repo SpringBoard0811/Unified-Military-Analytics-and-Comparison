@@ -1,127 +1,91 @@
-# 🎯 Milestone 1 – Data Collection & Preparation
-
-
-This milestone focuses on **collecting global military data and preparing it for analysis**.
-The output will be a **clean, structured dataset** ready for visualization and analytics (e.g., Tableau dashboards).
-
----
-
-# 🛰️ Module 1: Scraping Setup and Execution
+# 🛰️ Module 1: Data Scraping & Collection
 
 ## 🎯 Objective
 
-Collect **country-level military statistics** from the URLs provided in the dataset links file.
+This module focuses on collecting **global military data** from multiple country-specific web pages and converting it into a structured dataset.
 
 ---
 
-## 📂 Data Source
+## 🌍 Data Source
 
-All URLs are provided in:
-
-`links_for_military_data.txt`
-
-This file contains **country-specific pages** containing military statistics such as aircraft, tanks, defense budgets, and personnel.
+* Input file: `links_for_military_data.txt`
+* Contains URLs for each country's military statistics page
 
 ---
 
-## 📌 Tasks Performed
-
-✔ Use `links_for_military_data.txt` as the source list of URLs
-✔ Scrape **country-level military metrics** from each webpage
-✔ Extract key statistics such as:
-
-* ✈️ Total Aircraft
-* 🛡️ Total Tanks
-* 💰 Defense Budget
-* 👥 Active Personnel
-* 🚢 Naval Assets 
-
-✔ Parse structured metric blocks from the webpage
-✔ Store extracted data in a structured CSV dataset
-✔ Save per-country HTML files for debugging (optional)
-
----
-
-## 💾 Deliverables
-
-| Item            | Description                  |
-| --------------- | ---------------------------- |
-| **Script**      | `scrape_military_metrics.py` |
-| **Raw Dataset** | `military_raw_data.csv`      |
-
----
-
-## 📊 Evaluation Criteria
-
-✔ **≥ 95% URL success rate** from the provided list
-✔ Military metrics successfully parsed for **140+ countries**
-✔ Data stored in **consistent structured format**
-
----
-
-# 🧹 Module 2: Data Cleaning and Structuring
-
-## 🎯 Objective
-
-Transform the **raw scraped dataset** into a **clean and standardized format** suitable for data analysis and visualization.
-
----
-
-## 📌 Tasks Performed
-
-✔ Clean textual numeric values by removing:
-
-* commas `,`
-* percentage symbols `%`
-* plus signs `+`
-* other special characters
-✔ Convert metric values to **numeric formats**
-✔ Standardize column names for consistency
-
-Example column naming:
+## ⚙️ Process Workflow
 
 ```
-total_aircraft
-total_tanks
-active_personnel
-defense_budget
-naval_assets
+URL List → Web Scraping → Data Extraction → Raw Dataset
 ```
 
-✔ Handle **missing/null values** appropriately
-✔ Ensure dataset compatibility with **Tableau visualization**
+---
+
+## 📌 Key Metrics Extracted
+
+| Category       | Metrics                          |
+| -------------- | -------------------------------- |
+| 🪖 Manpower    | Total Manpower, Active Personnel |
+| ✈️ Air Power   | Total Aircraft, Fighter Aircraft |
+| 🚢 Naval Power | Naval Assets                     |
+| 🛡️ Land Power | Tanks                            |
+| 💰 Economy     | Defense Budget                   |
 
 ---
 
-## 💾 Deliverables
+## 🛠️ Technologies Used
 
-| Item                    | Description            |
-| ----------------------- | ---------------------- |
-| **Clean Dataset**       | `military_cleaned.csv` |
-| **Processing Notebook** | `clean_data.ipynb`     |
-
----
-
-## 📊 Evaluation Criteria
-
-✔ **< 2% missing/null values** after cleaning
-✔ No structural or formatting errors in dataset
-✔ Dataset ready for **Tableau visualization and analysis**
+* Python 🐍
+* BeautifulSoup 🌐
+* Requests 📡
+* Pandas 📊
 
 ---
 
-# 📈 Final Output of Milestone 1
+## 🔍 Scraping Strategy
 
-By the end of this milestone we will have:
-
-✔ 🌍 Global military metrics dataset
-✔ 📊 Clean and structured data ready for analysis
-✔ 🔁 Reproducible pipeline for scraping and preprocessing
-✔ 📂 Dataset ready for use in **visual analytics and dashboards**
+✔ Read all URLs from file
+✔ Send HTTP requests with headers
+✔ Parse HTML content
+✔ Extract metric blocks
+✔ Store data in structured format
+✔ Handle failures gracefully
 
 ---
 
-# 🚀 Outcome
+## 📂 Output Files
 
-Raw Military Data → **Clean Analytical Dataset**
-Milestone 1 files
+| File                         | Description         |
+| ---------------------------- | ------------------- |
+| `military_raw_data.csv`      | Raw scraped dataset |
+| `scrape_military_metrics.py` | Scraping script     |
+
+---
+
+## 📊 Sample Output
+
+| Country | Rank | Aircraft | Tanks | Budget |
+| ------- | ---- | -------- | ----- | ------ |
+| India   | 4    | 2229     | 4614  | 75B    |
+
+---
+
+## ✅ Evaluation Criteria
+
+* ✔ ≥ 95% successful scraping
+* ✔ 140+ countries covered
+* ✔ Structured dataset generated
+
+---
+
+## 🚀 Outcome
+
+✔ Automated data collection pipeline
+✔ Global military dataset created
+✔ Ready for cleaning & processing
+
+---
+
+## 👩‍💻 Author
+
+**Shanmukhi Sudha**
