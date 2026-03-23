@@ -1,60 +1,102 @@
-# 🌍 Unified Military Analytics
+# 🌍 Unified Military Analytics & Intelligence Dashboard (2025)
 
-A data analytics project that explores and visualizes global military power across 145 countries using cleaned datasets and interactive Power BI dashboards.
-
----
-
-## 📁 Project Structure
-
-```
-UNIFIED-MILITARY-ANALYTICS/
-├── Milestone_1/
-│   ├── Milestone_1_Data_Collection_and_Preparation/
-│   ├── Milestone_1_Output/
-│   └── README.md
-│
-├── Milestone_2/
-│   ├── Milestone_2_Quick_Stats_Dashboard.pbix
-│   ├── Milestone_2_Output.pdf
-│   └── README.md
-│
-├── Milestone_3/
-│   ├── Milestone_3_Nation_Overview_Dashboard.pbix
-│   ├── Milestone_3_Output.pdf
-│   └── README.md
-│
-├── LICENSE
-└── README.md
-```
+An advanced data-driven defense analytics platform that transforms global military datasets into **interactive intelligence dashboards**, enabling deep geopolitical insights, country-level comparisons, and strategic analysis.
 
 ---
 
-## 🗺️ Milestones
+## 🎯 Project Objective
 
-| Milestone | Title | Description |
-|---|---|---|
-| 1 | Data Collection & Preparation | Raw data sourced, cleaned, and exported as `military_cleaned.csv` |
-| 2 | Quick Stats Dashboard | Global overview — top countries, defense budgets, asset distribution |
-| 3 | Nation Overview Dashboard | Deep-dive into individual country military profiles |
+To design and develop a **comprehensive Military Intelligence Analytics System** that allows users to:
 
----
-
-## 🛠️ Tech Stack
-
-- **Power BI Desktop** – Interactive dashboards
-- **Python** – Data storage and preprocessing
-- **145 Countries** covered across all metrics
+✔ Analyze global military power rankings  
+✔ Explore country-level defense capabilities  
+✔ Compare military strength between nations  
+✔ Visualize defense budgets and asset distribution  
+✔ Generate data-driven strategic insights  
 
 ---
 
-## 📊 Key Metrics Tracked
+## 🌐 Why This Project Matters
 
-- Active Military Personnel
-- Defense Budget (USD)
-- Total Aircraft, Tanks & Naval Fleet
-- Aircraft Carriers
-- Power Index Rank
+Understanding global military power is crucial for:
+
+🌍 Geopolitical research & intelligence  
+🛡 Defense strategy and planning  
+📊 Policy-making & analytics studies  
+🎓 Academic and research purposes  
+
+This project converts **raw, fragmented datasets into a structured intelligence system**.
 
 ---
 
-*Each milestone folder contains its own README with full details.*
+## 🛰 Data Source
+
+**Source:** Open-source global military datasets  
+
+**Processing Method:**  
+- Data collection & preprocessing using Python  
+- Data cleaning and transformation  
+
+**Dataset Coverage:**
+
+🌎 145 Countries  
+📊 Multiple defense and economic indicators  
+
+**Key Metrics:**
+
+- Military Personnel  
+- Defense Budget (USD)  
+- Aircraft Count  
+- Naval Fleet Strength  
+- Tanks & Armored Vehicles  
+- Aircraft Carriers  
+- Power Index Ranking  
+
+---
+
+## 🛠 Technology Stack
+
+| Domain | Tools & Technologies |
+|--------|---------------------|
+| 🧹 Data Processing | Python |
+| 📊 Visualization | Power BI |
+| 📁 Data Storage | CSV |
+| 📘 Documentation | Markdown, GitHub |
+
+---
+
+## 📊 Analytics Modules
+
+### ⚡ Global Overview Dashboard
+
+Provides a **high-level snapshot of global military power**
+
+**Key Features:**
+- Top military nations ranking  
+- Defense budget comparison  
+- Asset distribution across countries  
+- Power index visualization  
+
+---
+
+### 🌍 Nation Intelligence Dashboard
+
+Deep-dive analysis of individual countries
+
+**Insights Covered:**
+- Military manpower  
+- Air, land, and naval strength  
+- Defense spending  
+- Country-specific military profile  
+
+---
+
+### ⚔️ Comparative Insights (Future Scope)
+
+- Country vs country comparison  
+- Strategic strength evaluation  
+- Relative capability analysis  
+
+---
+
+## 🔄 Data Pipeline
