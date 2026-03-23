@@ -1,5 +1,5 @@
 # 🌍 Global Military Power Dashboard
-### Milestone 2 – Power BI Overview Dashboard
+### Milestone 3 – Power BI Overview Dashboard
 
 ---
 
