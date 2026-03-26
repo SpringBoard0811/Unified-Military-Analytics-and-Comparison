@@ -55,6 +55,7 @@ The scraped dataset is cleaned and standardized to make it suitable for analytic
 | ------------- | ---------------------- |
 | Clean Dataset | `military_Transform_cleaned_data.csv` |
 | Notebook      | `scraping_and_cleaning.ipynb`     |
+| Quick stat    | `Quick_stat.pbix`  |
 
 ---
 
