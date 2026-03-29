@@ -1,56 +1,181 @@
-# Milestone 2 – KPI Engineering & Dashboard Planning
-Project: Unified Military Analytics and Comparison Dashboard
+# 📊 Milestone 3 – Complete Dashboard Development  
+## Unified Military Analytics and Comparison Dashboard
 
-## Overview
-Milestone 2 focuses on transforming the raw military dataset into analytical features (KPIs) and preparing the data for visualization in Tableau. This stage also includes designing the dashboard structure and prototyping the interaction flow for the final analytics platform.
+---
 
-## KPI Engineering
-New analytical metrics were created from the raw military dataset:
+## 📌 Project Overview  
+Milestone 3 focuses on developing fully interactive dashboards using Power BI for the Global Military Analytics Platform.
 
-- **Power Index Rank Gap** – Difference between a country's military rank and the top-ranked country.
-- **Assets per Capita** – Total military assets relative to total manpower.
-- **Budget-to-GDP Ratio** – Defense budget as a proportion of national GDP.
+Using the KPI-enhanced dataset created in Milestone 2, this phase builds dashboards that enable users to explore, analyze, and compare military capabilities across different countries.
 
-These KPIs enable comparative analysis of military strength, resource efficiency, and economic investment in defense.
+The dashboards combine high-level summaries with detailed insights, helping users understand:
 
-## Data Enrichment
-To support regional and alliance-based analysis, the dataset was enriched with metadata including:
+- Global military power distribution  
+- Defense resource allocation  
+- Strategic comparisons between nations  
+- Combined strength of potential alliances  
 
-- Continent  
-- Geographic region  
-- Military alliance flags (e.g., NATO membership)
+This milestone represents the visualization layer of the platform.
 
-## Data Preparation
-The dataset was formatted for Tableau visualization in two formats:
+---
 
-- **Wide Format** – Each metric stored as a column for quick KPI comparison.  
-- **Long Format** – Restructured for flexible dashboard visualizations and filtering.
+## 🧭 Dashboard Modules  
+The Power BI solution includes four dashboard modules designed for different analytical needs.
 
-Final dataset exported as:
+---
 
-`military_final.xlsx`
+## 🌍 1. Quick Stats Dashboard  
 
-## Dashboard Planning
-Initial dashboard layouts were designed to guide the final visualization system. The following dashboard modules were planned:
+The Quick Stats Dashboard provides an overall view of global military indicators.
 
-- **Quick Stats** – Global military overview and KPIs  
-- **Nation Overview** – Detailed military profile for each country  
-- **Compare Powers** – Multi-country comparison dashboard  
-- **Coalition Builder** – Alliance and coalition strength simulation  
+### Key Features
+- Top 10 countries based on Power Index  
+- KPI cards for major defense metrics  
+- Interactive filters:
+  - Continent  
+  - Region  
+  - Military alliances (e.g., NATO)  
 
-A prototype dashboard was created using sample data to validate interactions and navigation flow.
+### Visual Components
+- Power Index ranking chart  
+- KPI summary cards  
+- Regional comparison visuals  
 
-## Files in Milestone 2
-- `Milestone_2.ipynb` – Notebook for KPI computation and dataset preparation  
-- `generate_kpis.py` – Script to generate KPI features  
-- `military_final.xlsx` – Final dataset prepared for Tableau  
-- `dashboard_storyboard.pdf` – Layout sketches and dashboard design  
+### Purpose
+Helps users quickly identify leading military nations and analyze regional trends.
 
-## Technologies Used
-- Python  
-- Pandas  
-- Jupyter Notebook  
-- Tableau  
+---
 
-## Output
-A KPI-enriched military dataset and an initial dashboard prototype ready for visualization and interactive analytics.
+## 🏳️ 2. Nation Overview Dashboard  
+
+The Nation Overview Dashboard gives a detailed profile of a selected country.
+
+### Key Features
+- Interactive country selection  
+- Visualization of:
+  - Military manpower  
+  - Aircraft strength  
+  - Tank inventory  
+  - Naval assets  
+  - Defense budget  
+- Includes calculated KPIs  
+
+### Visual Components
+- Bar charts for comparisons  
+- Radar charts for overall capability  
+- Tooltips showing rank and comparisons  
+
+### Purpose
+Supports in-depth analysis of a country's military strength.
+
+---
+
+## ⚔️ 3. Compare Powers Dashboard  
+
+The Compare Powers Dashboard allows side-by-side comparison of two countries.
+
+### Key Features
+- Dual country selection  
+- Comparison across:
+  - Manpower  
+  - Aircraft  
+  - Tanks  
+  - Naval assets  
+  - Defense budget  
+  - KPI metrics  
+
+### Interaction
+- Uses Power BI parameters for dynamic selection  
+
+### Purpose
+Helps identify strengths, weaknesses, and strategic differences.
+
+---
+
+## 🤝 4. Coalition Builder Dashboard  
+
+The Coalition Builder Dashboard simulates combined military strength.
+
+### Key Features
+- Multi-country selection  
+- Automatic aggregation of metrics  
+- Comparison options:
+  - Coalition vs coalition  
+  - Coalition vs country  
+
+### Aggregated Metrics
+- Total manpower  
+- Aircraft count  
+- Tank count  
+- Naval assets  
+- Defense budget  
+- Combined KPIs  
+
+### Purpose
+Supports analysis of alliances and coalition capabilities.
+
+---
+
+## 🔗 Dashboard Integration  
+
+All dashboards are integrated into a single Power BI application.
+
+### Navigation Features
+- Dashboard navigation buttons  
+- Shared filters  
+- Interactive parameter controls  
+
+### Navigation Flow
+Quick Stats → Nation Overview → Compare Powers → Coalition Builder  
+
+---
+
+## 📦 Deliverables  
+
+- Developed dashboards:
+  - Quick Stats  
+  - Nation Overview  
+  - Compare Powers  
+  - Coalition Builder  
+
+- Final Power BI file:
+  **Military_Dashboard.pbix**
+
+Includes:
+- All dashboards  
+- Integrated datasets  
+- KPI calculations  
+- Filters and parameters  
+
+---
+
+## 🛠 Technologies Used  
+
+- **Power BI** – Dashboard development  
+- **Python** – KPI generation  
+- **Pandas** – Data transformation  
+- **Excel** – Data integration  
+
+---
+
+## ✔ Evaluation Criteria  
+
+- Filters work correctly across dashboards  
+- Nation Overview shows all key metrics  
+- Compare Powers supports dynamic comparison  
+- Coalition Builder aggregates data accurately  
+- Smooth navigation between dashboards  
+- All modules integrated successfully  
+
+---
+
+## 📈 Milestone Outcome  
+
+Milestone 3 delivers a complete interactive dashboard system that allows users to:
+
+- Explore global military rankings  
+- Analyze country-level defense capabilities  
+- Perform comparisons between nations  
+- Simulate coalition strength  
+
+This milestone transforms raw military data into meaningful and interactive insights through visualization.
