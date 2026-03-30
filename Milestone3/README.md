@@ -1,25 +1,19 @@
-📌 Milestone 3 – Dashboard Development
+# 📌 Milestone 3 – Dashboard Development
 
-🔍 Overview
-This milestone focuses on developing an interactive dashboard system to analyze global military power using KPI-enriched data.
+## 🔍 Overview
 
-⚙️ Key Activities
-Developed multiple dashboards to represent different aspects of military analytics.
-Applied filters and slicers for better data exploration.
-Created visualizations such as bar charts, pie charts, and KPI cards.
-Integrated all dashboards into a single Power BI file with navigation between pages.
+This milestone focuses on developing interactive dashboards for military analysis.
 
-📊 Dashboards
-1) Quick Stats – Global military overview with top countries and key metrics.
-2) Nation Overview – Detailed analysis of a selected country’s military strength.
-3) Compare Powers – Side-by-side comparison of two countries’ military capabilities.
-4) Coalition Builder – Combined analysis of multiple countries to evaluate alliance strength.
+## ⚙️ Key Activities
 
-🧪 Implementation
-Power BI was used to design and develop the dashboards.
-The KPI-enriched dataset was used to create interactive visuals and filters.
+* Developed multiple dashboards
+* Added charts, KPIs, and filters
+* Enabled interactive analysis
 
-🎯 Outcome
-An interactive and user-friendly dashboard system that enables exploration, comparison, and analysis of global military data.
+## 📊 Dashboards
 
+* Dashboard 3: Compare Powers
 
+## ✅ Outcome
+
+An interactive dashboard system to analyze and compare military power.
