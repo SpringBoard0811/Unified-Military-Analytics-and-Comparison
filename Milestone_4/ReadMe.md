@@ -41,6 +41,7 @@ Provides:
 Strength advantage analysis
 Weakness identification
 Tactical observations
+
 🔗 Integration
 Fully integrated with Milestone 3 dashboards
 Uses shared dataset and KPIs
@@ -48,11 +49,14 @@ Supports filters like:
 Country
 Region
 Alliance
+
 📦 Deliverables
 Item	Description
 Collision Builder Module	Interactive simulation interface
 Scenario Engine	Conflict computation logic
 Visualization Dashboard	Graphical analysis of outcomes
+
+
 📊 Evaluation Criteria
 
 ✔ Accurate conflict simulation
@@ -68,4 +72,4 @@ Collision Simulation Engine
           ↓
 Strategic Conflict Analysis
 
-Users can simulate real-world-like military scenarios and gain insights into global defense dynamics and strategic balance.
+
