@@ -61,33 +61,39 @@ These indicators enable **comparative analysis of military strength across natio
 
 # 📂 Repository Structure
 
-```
+`````
 Unified-Military-Analytics-and-Comparison/
 │
 ├── Milestone-1/
 │   ├── dataset/
-│   │
 │   ├── notebook/
 │   │   ├── Web_Scraping_Single_Country.ipynb
 │   │   ├── Automated_Scraping_URL_List.ipynb
-│   │
+│   │   ├── Quick_Stats.pbix
+│   │   └── Quick_Stats.pdf
 │   └── README.md
 │
 ├── Milestone-2/
 │   ├── generate_kpis.py
 │   ├── KPI_Engineering_and_Feature_Creation.ipynb
+│   ├── Nation_Overview.pbix
+│   ├── Nation_Overview.pdf
 │   └── README.md
 │
 ├── Milestone-3/
 │   ├── Dashboard_Development.ipynb
+│   ├── Compare_Power.pbix
+│   ├── Compare_Power.pdf
 │   └── README.md
 │
 ├── Milestone-4/
 │   ├── Testing_and_Validation.ipynb
+│   ├── Coalition_Builder.pbix
+│   ├── Coalition_Builder.pdf
 │   └── README.md
 │
 └── README.md
-```
+``````
 
 Each **milestone represents a stage of the analytics lifecycle**, making the project easy to understand and reproduce.
 
@@ -219,5 +225,6 @@ Possible enhancements include:
 ---
 ```
 ## 📸 Dashboard Preview
-```
+![Global_military_firepower_2025-1_page-0001](https://github.com/user-attachments/assets/3e21901c-c2b0-4630-804d-2b59b967cb6b)
+`````
 
