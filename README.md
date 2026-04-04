@@ -225,7 +225,9 @@ Possible enhancements include:
 ---
 ```
 ## 📸 Dashboard Preview
-![Global military firepower 2025](Global_military_firepower_2025-1_page-0001.png)
+
+![image alt](![Military Firepower 2025](https://github.com/SpringBoard0811/Unified-Military-Analytics-and-Comparison/blob/a7eb239cbd3b6d505d0b9b2e44b51c6af0a87a30/Global_military_firepower_2025-1_page-0001.jpg?raw=true)
+
 
 `````
 
