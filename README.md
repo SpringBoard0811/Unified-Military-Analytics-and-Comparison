@@ -225,6 +225,7 @@ Possible enhancements include:
 ---
 ```
 ## 📸 Dashboard Preview
-![Global_military_firepower_2025-1_page-0001](https://github.com/user-attachments/assets/3e21901c-c2b0-4630-804d-2b59b967cb6b)
+![Global_military_firepower_2025-1_page-0001](https://github.com/user-attachments/assets/00ca4abe-7cdd-46ae-8dc5-9d329f96023b)
+
 `````
 
