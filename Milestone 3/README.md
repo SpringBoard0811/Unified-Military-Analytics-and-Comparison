@@ -27,7 +27,7 @@ dashboards pdfs
 ```
 ## 📊 Dashboards Developed
 
-##⚡ Quick Stats
+⚡ Quick Stats
 
 A high-level overview dashboard showing global military trends and rankings.
 
@@ -36,7 +36,7 @@ Defense budget comparison
 Summary KPI cards
 Snapshot of global military power distribution
 
-##🌍 Nation Overview
+🌍 Nation Overview
 
 A detailed dashboard focused on the military profile of a selected country.
 
@@ -45,7 +45,7 @@ Air, land, and naval capability metrics
 Defense budget insights
 KPI-based evaluation for the selected nation
 
-## ⚔️ Compare Powers
+⚔️ Compare Powers
 
 A comparative dashboard allowing side-by-side analysis of two countries.
 
