@@ -1,82 +1,99 @@
-🌍 Unified Military Analytics and Comparison Dashboard
+# 🌍 Unified Military Analytics and Comparison Dashboard
 
-An end-to-end data analytics project that builds a fully interactive dashboard suite for analyzing global military power (2025) using structured defense datasets and analytical KPIs.
+## Transforming Global Military Data into Structured Analytical Insights
 
-The project implements a complete Python-based data pipeline to scrape, clean, process, engineer KPIs, and visualize military metrics for 140+ countries sourced from GlobalFirepower.com.
+An end-to-end data analytics project that builds a fully interactive dashboard suite to analyze and compare global military power using structured defense datasets and analytical KPIs.
 
-Unlike single-tool dashboards, this system is designed for cross-platform flexibility — enabling deployment in Power BI, Tableau, Streamlit, or Dash.
+This project follows a complete data analytics pipeline:
 
-🎯 Project Objective
+Data Collection → Data Cleaning → KPI Engineering → Dashboard Development → Testing & Validation
 
-To build a centralized military analytics platform that allows users to:
+---
 
-✔ Analyze global military power indicators
-✔ Compare military capabilities between countries
-✔ Generate analytical KPIs from defense data
-✔ Explore insights through interactive dashboards
-✔ Evaluate alliance strength through coalition simulation
+## 🎯 Project Objective
 
-This project mirrors a real-world, industry-level data analytics workflow.
+The goal of this project is to build a centralized military analytics platform that allows users to:
 
-🛰 Dataset
+- Analyze global military power indicators  
+- Compare military capabilities between countries  
+- Generate analytical KPIs from defense data  
+- Explore insights through interactive dashboards  
+- Evaluate alliance strength through coalition simulation  
 
-Military metrics are scraped for 140+ countries using a predefined URL list.
+This project demonstrates a real-world, industry-level data analytics workflow.
 
-Indicators include
+---
 
-Military manpower and reserve personnel
-Aircraft and air power assets
-Naval fleet strength
-Armored vehicles and land forces
-Defense budget and economic indicators
-Strategic military equipment
+## 🛰 Dataset
+
+The dataset contains military capability indicators collected for 140+ countries.
+
+**Example metrics**
+
+- Military manpower and reserve personnel  
+- Aircraft and air power assets  
+- Naval fleet strength  
+- Armored vehicles and land forces  
+- Defense budget and economic indicators  
+- Strategic military equipment  
 
 These indicators enable structured, multi-dimensional comparison of military strength across nations.
 
-🛠 Tech Stack
-Area	Tools / Libraries
-Scraping	Python, Requests, BeautifulSoup
-Processing	Pandas, NumPy
-Visualization	Power BI / Tableau / Streamlit / Dash
-Notebook Environment	Jupyter Notebook
-Documentation	Markdown, GitHub
-📊 Dashboard Modules
+---
+
+## 🛠 Tech Stack
+
+| Area | Tools / Libraries |
+|---|---|
+| Scraping | Python, Requests, BeautifulSoup |
+| Processing | Pandas, NumPy |
+| Visualization | Power BI / Tableau |
+| Notebook | Jupyter Notebook |
+| Documentation | Markdown, GitHub |
+
+---
+
+## 📊 Dashboard Modules
 
 The analytics suite consists of four interconnected modules.
 
-⚡ Quick Stats
-
+### ⚡ Quick Stats
 A global snapshot of rankings, trends, and highlights.
 
-🌍 Nation Overview
+### 🌍 Nation Overview
+Detailed breakdown of an individual country's military capabilities.
 
-Detailed breakdown of an individual country’s military capabilities.
-
-⚔️ Compare Powers
-
+### ⚔️ Compare Powers
 Side-by-side comparison of two countries using core metrics and KPIs.
 
-🤝 Coalition Builder
-
+### 🤝 Coalition Builder
 Interactive simulation of combined military strength of multiple countries.
 
-🔄 Data Analytics Workflow
-Raw Military URLs
+---
+
+## 🔄 Complete Data Analytics Pipeline
+
+```text
+Military Data Links
         ↓
-Web Scraping (Python)
+Web Scraping
         ↓
 Raw Dataset (CSV)
         ↓
-Data Cleaning & Structuring
+Data Cleaning & Standardization
         ↓
-KPI Feature Engineering
+Feature Engineering
+        ↓
+KPI Generation
         ↓
 Dashboard Development
         ↓
 Testing & Validation
         ↓
-Final Analytics Insights
-📂 Repository Structure (Milestone Based)
+Final Analytical Insights
+```
+## Repository Structure
+```
 milestone-1
 │   Military_Analysis_Milestone1.ipynb
 │   README.md
@@ -100,36 +117,35 @@ milestone-3
 milestone-4
 │   Coalition Builder.pbix
 │   Coalition Builder.pdf
-🧠 KPI Engineering
+```
+## 🧠 KPI Engineering
 
 Custom KPIs engineered using Python:
 
-Power Index Rank Gap
-Assets per Capita
-Defense Budget-to-GDP Ratio
-Region, Continent, and Alliance metadata
+- Power Index Rank Gap
+- Assets per Capita
+- Defense Budget-to-GDP Ratio
+- Region, Continent, and Alliance metadata
 
 These KPIs enable deeper analytical comparison beyond raw counts.
 
-📈 Expected Outcomes
+## 📈 Expected Outcomes
+- Clean and standardized dataset for 140+ countries
+- 50+ structured military and economic indicators
+- Engineered KPI features for analysis
+- Four fully functional dashboards
+- Reproducible analytics workflow
 
-✔ Clean and standardized dataset for 140+ countries
-✔ 50+ structured military and economic indicators
-✔ Engineered KPI features for analysis
-✔ Four fully functional dashboards
-✔ Cross-platform visualization capability
-✔ Reproducible analytics workflow
+## 🚀 Future Improvements
+- Streamlit web app version of dashboards
+- Advanced Power BI / Tableau storytelling dashboards
+- Predictive analytics for military trends
+- Automated country comparison reports
+- Deployment as a public analytics platform
 
-🚀 Future Improvements
-Streamlit web app version of dashboards
-Advanced Power BI / Tableau storytelling dashboards
-Predictive analytics for military trends
-Automated country comparison reports
-Deployment as a public analytics platform
-📌 Project Highlights
-
-✔ End-to-end Python data pipeline
-✔ Real-world open-source defense dataset
-✔ KPI feature engineering for strategic insights
-✔ Modular milestone-based development
-✔ Portfolio-ready analytics project
+## 📌 Project Highlights
+- End-to-end Python data pipeline
+- Real-world defense dataset analysis
+- KPI feature engineering for strategic insights
+- Modular milestone-based development
+- Portfolio-ready analytics project
