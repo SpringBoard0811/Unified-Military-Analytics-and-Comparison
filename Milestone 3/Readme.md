@@ -143,7 +143,7 @@ All dashboards are **connected through shared filters and navigation controls**.
 
 | Item                  | Description                                                     |
 | --------------------- | --------------------------------------------------------------- |
-| Final Dashboard File  | `global_military_firepower_2025.pbix`                           |
+| Final Dashboard File  | `unified_military_analysis.pbix`                           |
 | Integrated Dashboards | Quick Stats, Nation Overview, Compare Powers, Coalition Builder |
 
 ---
