@@ -81,17 +81,17 @@ Unified-Military-Analytics-and-Comparison/
 │   └── README.md
 │
 ├── Milestone-3/
-│   ├── Dashboard_Development.ipynb
 │   ├── Compare_Power.pbix
 │   ├── Compare_Power.pdf
 │   └── README.md
 │
 ├── Milestone-4/
-│   ├── Testing_and_Validation.ipynb
 │   ├── Coalition_Builder.pbix
 │   ├── Coalition_Builder.pdf
 │   └── README.md
-│
+│── unified_military_analysis.pbix
+|── unified_military_analysis final.pdf
+|
 └── README.md
 ``````
 
@@ -223,12 +223,5 @@ Possible enhancements include:
 ✔ Modular milestone-based development
 
 ---
-```
-## 📸 Dashboard Preview
-
-![image alt]![Global_military_firepower_2025-1_page-0001](https://github.com/user-attachments/assets/7f9ea6ab-536f-4785-8e7e-5f31eb1179d0)
-
-
-
-`````
+````
 
