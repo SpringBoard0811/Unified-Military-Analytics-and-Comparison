@@ -1,59 +1,96 @@
-# 🤝 Milestone 4 – Coalition Builder Dashboard
-### Unified Military Analytics and Comparison Dashboard
+# 🤝 Milestone 4 – Coalition Builder Dashboard  
 
-Milestone 4 introduces the most advanced analytical module of the project — the **Coalition Builder** dashboard. This dashboard allows users to simulate alliances by selecting multiple countries and analyzing their combined military strength, KPIs, and budget impact compared to individual nations.
+## 📊 Unified Military Analytics & Alliance Simulation Dashboard  
 
----
+Milestone 4 represents the **most advanced analytical layer** of this project — the **Coalition Builder Dashboard**.  
 
-## 🎯 Objective
-This milestone focuses on:
-* **Simulating** multi-country military alliances.
-* **Aggregating** military metrics dynamically.
-* **Comparing** coalition power with individual countries.
-* **Analyzing** how defense budget and manpower scale in alliances.
+This dashboard enables users to simulate **multi-country military alliances**, analyze their **combined strength**, and evaluate how strategic power scales when nations collaborate.  
 
 ---
 
-## 📂 Files in this Milestone
-* `Coalition Builder.pbix`
-* `Coalition Builder.pdf`
+## 🎯 Objective  
+
+The primary goals of this milestone are:
+
+- Simulate **multi-country military coalitions**
+- Dynamically **aggregate military metrics**
+- Compare **coalition strength vs individual countries**
+- Analyze **defense budget and manpower scaling**
+- Provide **strategic insights into alliance power**
 
 ---
 
-## 📊 Dashboard Features
+## 📂 Files Included  
 
-### 🌍 Country Selection
-* **Multi-country slicer** to build a coalition.
-* All visuals update dynamically based on selected countries.
-* **Location on Globe:** Map showing geographic spread of coalition countries.
-
-### 🪖 Military Strength
-* **Total Active Personnel:** Displays combined manpower of the coalition.
-* **Total Power (Air, Land, Naval):** Shows aggregated military assets across land, air, and sea.
-
-### 💰 Financial Analytics
-* **Defense Budget per Country:** Visual of budget contribution from each country in the coalition.
-* **Defense Budget per Soldier:** Indicates spending efficiency of the coalition.
-* **Coalition Budget Percentage:** Shows coalition’s share of global defense spending.
+- `Coalition Builder.pbix` – Power BI Dashboard File  
+- `Coalition Builder.pdf` – Dashboard Export  
 
 ---
 
-## 🧠 KPIs Used
-* **Power Index Rank Gap**
-* **Assets per Capita**
-* **Defense Budget-to-GDP Ratio**
+## 🌍 Key Features  
+
+### 🔹 Multi-Country Selection  
+- Interactive slicer to select multiple countries  
+- Dynamic coalition building  
+- All visuals update in real-time  
 
 ---
 
-## 🔄 Workflow
-1.  **Select Countries** → 
-2.  **Aggregate Metrics** → 
-3.  **Recalculate KPIs** → 
-4.  **Visual Comparison**
+### 🪖 Coalition Manpower  
+- Displays **total active + reserve personnel**  
+- Shows overall military readiness  
 
 ---
 
-## ✅ Outcome
-* Interactive alliance simulation.
-* Aggregated military and budget insights.
-* Coalition vs. country level comparison.
+### ✈️🚢🛡 Military Assets Overview  
+- Aggregated strength across:
+  - Air (Aircraft, Fighter Aircraft)
+  - Land (Tanks)
+  - Naval (Fleet)  
+- Provides a **complete defense capability view**
+
+---
+
+### 💰 Defense Budget Analysis  
+- Combined defense budget of coalition  
+- Helps evaluate **economic strength of alliance**
+
+---
+
+### ⚔️ Coalition Power Index  
+- Custom-built **composite metric**
+- Based on:
+  - Manpower  
+  - Budget  
+  - Aircraft  
+  - Tanks  
+  - Naval Fleet  
+- Represents overall **strategic power score**
+
+---
+
+### 🧠 Military Strength Classification  
+- Categorizes coalition into:
+  - 🟥 Superpower Alliance  
+  - 🟦 Global Power Alliance  
+  - 🟩 Regional Power  
+  - ⬜ Emerging Alliance  
+
+---
+
+### 📊 Force Readiness Analysis  
+- Active vs Reserve personnel comparison  
+- Helps understand **deployment readiness**
+
+---
+
+### 🏆 Top Contributing Country  
+- Identifies the **most influential country** in the coalition  
+- Based on contribution to manpower/assets  
+
+---
+
+## 🔄 Workflow  
+
+```text
+Select Countries → Aggregate Metrics → Calculate Power Index → Analyze Strength → Compare Insights
