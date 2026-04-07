@@ -232,8 +232,10 @@ unified-military-analytics-dashboard
 │   └── dashboard_assets
 │       └── icons_resources
 │
-├── documentation
+├── Milestone-4 
+|   ├── documentation
 │   └── project_report.pdf
+|
 │
 └── README.md
 ```
